@@ -1,0 +1,19 @@
+@import "styles/partials";
+
+.skills {
+  margin-bottom: 7px;
+  li {
+    display: inline-block;
+    color: $pearl-lusta;
+    margin-right: 7px;
+    font-size: $font-size-lg;
+    color: $aquamarine;
+    cursor: pointer;
+    z-index: 9999;
+  }
+}
+
+.icon {
+  font-weight: "lighter";
+  font-size: $font-size-xl;
+}

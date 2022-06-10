@@ -1,0 +1,19 @@
+@import "styles/partials";
+
+.container {
+  text-align: center;
+  float: right;
+  margin-right: 20px;
+  font-family: "Rubik", sans-serif;
+  font-size: $font-size-xs;
+  color: $prelude;
+  padding: 10px 0px 20px;
+  position: relative;
+  img {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    left: 2px;
+    margin-right: 2px;
+  }
+}

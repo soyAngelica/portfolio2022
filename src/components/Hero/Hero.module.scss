@@ -1,0 +1,169 @@
+@import "styles/partials";
+
+.container {
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+}
+
+.profile {
+  max-width: 60%;
+  margin: 40px auto 0px;
+  position: relative;
+  @include above($md-breakpoint) {
+    max-width: 380px;
+    margin: 0px auto;
+  }
+  @include above($lg-breakpoint) {
+    left: 40px;
+  }
+  @include above($xl-breakpoint) {
+    max-width: 420px;
+  }
+}
+
+.intro {
+  position: relative;
+  display: table;
+  overflow: hidden;
+}
+
+.introContent {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+  color: $prelude;
+  font-family: "Akshar", sans-serif;
+  font-size: $font-size-xl + 8px;
+  @include above($sm-breakpoint) {
+    font-size: $font-size-xxl;
+  }
+  @include above($md-breakpoint) {
+    font-size: $font-size-xxl + 8px;
+  }
+  @include below($lg-breakpoint) {
+    text-align: center;
+  }
+  @include above($xl-breakpoint) {
+    font-size: $font-size-xxl + 20px;
+  }
+}
+
+.subtitle,
+.text {
+  font-size: $font-size-md;
+  margin: 0px auto;
+  max-width: 80%;
+  text-align: center;
+  color: $aquamarine;
+  font-family: "Rubik", sans-serif;
+  @include above($md-breakpoint) {
+    font-size: $font-size-lg;
+    max-width: 600px;
+  }
+  @include above($lg-breakpoint) {
+    max-width: inherit;
+    margin: inherit;
+    text-align: left;
+  }
+  @include above($xl-breakpoint) {
+    font-size: $font-size-lg + 5px;
+  }
+}
+
+.subtitle {
+  color: $periwinkle-gray;
+}
+
+.introContent h1,
+.introContent h1 span,
+.introContent p {
+  opacity: 0;
+  animation-duration: 0.8s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.mask.introContent * {
+  opacity: 1;
+}
+
+.mask.introContent .contentWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 2em 0;
+  overflow: hidden;
+  &:before {
+    content: " ";
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 2px;
+    background-color: $prelude;
+    animation: pulse 1.3s 0.3s both;
+    opacity: 0;
+  }
+}
+
+.mask.introContent .contentWrapper > div {
+  position: relative;
+  z-index: 1;
+}
+
+.mask.introContent .contentWrapper,
+.mask.introContent .contentWrapper > div {
+  animation-duration: 0.5s;
+  animation-delay: 1.1s;
+  animation-fill-mode: backwards;
+}
+
+.mask.introContent .contentWrapper {
+  animation-name: mask-wrapper;
+}
+
+.mask.introContent .contentWrapper > div {
+  animation-name: mask-content;
+}
+
+@keyframes mask-wrapper {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes mask-content {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  30.8% {
+    opacity: 0;
+  }
+  15.4%,
+  46.2%,
+  61.5%,
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

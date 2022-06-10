@@ -1,0 +1,54 @@
+@import "styles/partials";
+
+.title {
+  font-family: "Akshar", sans-serif;
+  color: $periwinkle-gray;
+  font-size: $font-size-xl + 4;
+  position: relative;
+  @include above($md-breakpoint) {
+    font-size: $font-size-xxl;
+  }
+}
+
+.subtitle {
+  font-family: "Akshar", sans-serif;
+}
+
+.subtitle,
+.text {
+  color: $prelude;
+}
+
+.text {
+  width: 100%;
+  font-size: $font-size-sm;
+  @include above($md-breakpoint) {
+    font-size: $font-size-base;
+    width: 90%;
+  }
+}
+
+.skills {
+  color: $prelude;
+  font-size: $font-size-sm;
+  font-weight: lighter;
+  li {
+    display: inline-block;
+    color: $pearl-lusta;
+    margin-right: 7px;
+    font-size: $font-size-lg;
+    color: $aquamarine;
+    cursor: pointer;
+  }
+}
+
+.icon {
+  font-weight: "lighter";
+  font-size: $font-size-xl;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.link {
+  color: $corn-field;
+}

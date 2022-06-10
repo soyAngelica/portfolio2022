@@ -1,0 +1,53 @@
+@import "styles/partials";
+
+.container {
+  position: relative;
+  background-color: $jaguar;
+  transition: all 1.4s;
+}
+
+.title {
+  position: relative;
+  color: $prelude;
+  font-family: "Akshar", sans-serif;
+  font-size: $font-size-xl;
+  @include above($sm-breakpoint) {
+    font-size: $font-size-xxl;
+  }
+  @include above($md-breakpoint) {
+    font-size: $font-size-xxl + 8px;
+  }
+  @include below($lg-breakpoint) {
+    text-align: center;
+  }
+  @include above($xl-breakpoint) {
+    font-size: $font-size-xxl + 20px;
+  }
+}
+
+.text {
+  text-align: center;
+  position: relative;
+  font-size: $font-size-sm;
+  color: $prelude;
+  font-family: "Rubik", sans-serif;
+  min-height: 140px;
+  max-width: 80%;
+  margin: 0px auto;
+  @include above($md-breakpoint) {
+    font-size: $font-size-md;
+  }
+  @include above($lg-breakpoint) {
+    max-width: 50%;
+  }
+  @include above($xl-breakpoint) {
+    max-width: 100%;
+  }
+}
+
+.tel {
+  text-align: center;
+  position: relative;
+  color: $aquamarine;
+  font-size: $font-size-md;
+}

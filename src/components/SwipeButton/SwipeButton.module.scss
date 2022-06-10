@@ -1,0 +1,46 @@
+@import "styles/partials";
+
+.swipe {
+  position: absolute;
+  bottom: 120px;
+  right: 40px;
+  color: $paris-white;
+  z-index: 9998;
+  transition: all 1.4s;
+  @include above($sm-breakpoint) {
+    bottom: 100px;
+  }
+  @include above($xxl-breakpoint) {
+    bottom: 20px;
+  }
+}
+
+.fixed {
+  position: fixed;
+  bottom: 240px;
+}
+
+.hand {
+  font-size: $font-size-lg + 4;
+  width: 28px;
+  margin: 0px auto;
+  animation: doRotation 6s infinite;
+}
+
+@keyframes doRotation {
+  0%,
+  50%,
+  100% {
+    transform: rotate(-30deg);
+  }
+
+  100%,
+  50% {
+    transform: rotate(-30deg);
+  }
+
+  25%,
+  75% {
+    transform: rotate(30deg);
+  }
+}

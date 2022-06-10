@@ -1,0 +1,90 @@
+@import "styles/partials";
+
+.container {
+  width: 100vw;
+  position: absolute;
+  overflow: hidden;
+  transition: all 1.4s;
+}
+
+.smallHeight {
+  height: auto;
+  min-height: 520px;
+  @include above($md-breakpoint) {
+    min-height: 540px;
+  }
+  @include above($xl-breakpoint) {
+    min-height: 640px;
+  }
+}
+
+.middleHeight {
+  height: auto;
+  min-height: 650px;
+}
+
+.largeHeight {
+  height: 100vh;
+  min-height: 900px;
+  @include below($sm-breakpoint) {
+    min-height: 700px;
+  }
+  @include above($lg-breakpoint) {
+    min-height: 700px;
+  }
+}
+
+.lightSky {
+  background: #ad5389;
+  background: -webkit-linear-gradient(to right, #ad5389, #3c1053);
+  background: linear-gradient(to right, #ad5389, #3c1053);
+}
+
+.darkSky {
+  background: $mardi-gras;
+  background: -webkit-linear-gradient(
+    to right,
+    $mardi-gras,
+    $mardi-gras,
+    $jaguar
+  );
+  background: linear-gradient(to right, $mardi-gras, $mardi-gras, $jaguar);
+}
+
+.sky {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
+  transition: all 1.4s;
+}
+
+.shootingstars {
+  margin: 0;
+  padding: 0;
+  width: 150vh;
+  height: 100vw;
+  position: absolute;
+  overflow: hidden;
+  transform: translatex(calc(50vw - 50%)) translatey(calc(50vh - 50%))
+    rotate(120deg);
+}
+
+.wish {
+  width: 100px;
+  height: 2px;
+  top: 0px;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  background-color: white;
+  position: relative;
+  background: linear-gradient(-45deg, white, rgba(0, 0, 255, 0));
+  filter: drop-shadow(0 0 6px white);
+  overflow: hidden;
+}

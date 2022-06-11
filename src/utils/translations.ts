@@ -24,7 +24,7 @@ export const translations = {
     [Languages.Es]:
       "A lo largo de este tiempo, he trabajado construyendo diversos proyectos como freelancer y dando mentorías en cursos y talleres de desarrollo web e introducción a programación.",
     [Languages.En]:
-      "During this time I've worked building projects as freelancer and being mentor on web development and introduction to programming",
+      "During this time I've worked building projects as freelancer and being mentor on web development and introduction to programming.",
   },
   aboutText_3_1: {
     [Languages.Es]: "En 2017 emprendí junto a ",
@@ -38,7 +38,7 @@ export const translations = {
     [Languages.Es]:
       ". Con ayuda de una campaña de crowfunding, impartimos talleres de uso sustentable de tecnología y programación, a más de 120 niños alrededor de 9 comunidades en la región maya del Sur de México y el Norte de Guatemala. ",
     [Languages.En]:
-      " Helped by a crowdfunding campaign, we teach workshops on sustainable use of technology and programming to more than 120 kids around of 9 communities in the Maya region from Southern Mexico and Northern Guatemala.",
+      ". Helped by a crowdfunding campaign, we teach workshops on sustainable use of technology and programming to more than 120 kids around of 9 communities in the Maya region from Southern Mexico and Northern Guatemala.",
   },
   aboutText_4: {
     [Languages.Es]: "Actualmente soy parte del equipo de ingenieria en ",
@@ -52,7 +52,8 @@ export const translations = {
   aboutText_5: {
     [Languages.Es]:
       "Me encanta viajar, andar en bici, instagram, la música y el té. ",
-    [Languages.En]: "I love traveling, riding a bike, instagram, music and tea",
+    [Languages.En]:
+      "I love traveling, riding a bike, instagram, music and tea.",
   },
   projectsTitle_1: {
     [Languages.Es]: "Mis proyectos",
@@ -74,7 +75,7 @@ export const translations = {
     [Languages.Es]:
       "Actualmente soy muy feliz trabajando en Sofía pero siempre me gustará leer algún saludo, si tienes dudas, o que me cuentes acerca de un nuevo proyecto.",
     [Languages.En]:
-      "I'm so happy working at Sofía but I will always love to read you saying hi, if you have any question, or if you wanna talking about a new project.",
+      "I'm so happy working at Sofía but I will always love to read you saying hi, if you have any question, or if you want to talk about a new project.",
   },
   footerText1: {
     [Languages.Es]: "Hecho con ",

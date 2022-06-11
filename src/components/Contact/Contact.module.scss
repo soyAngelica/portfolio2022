@@ -36,12 +36,13 @@
   margin: 0px auto;
   @include above($md-breakpoint) {
     font-size: $font-size-md;
+    max-width: 60%;
   }
   @include above($lg-breakpoint) {
     max-width: 50%;
   }
   @include above($xl-breakpoint) {
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 

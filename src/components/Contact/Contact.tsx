@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <section className={styles.container}>
       <StarNight height='small' dark />
-      <div className='pt-20 pb-20 px-12  xl:w-2/5 mx-auto'>
+      <div className='pt-20 pb-20 px-12 xl:w-3/5 xl:pb-40 mx-auto'>
         <h3 className={prettyJoin(["text-center w-full mb-4", styles.title])}>
           💌 hola@soyangelica.com
         </h3>

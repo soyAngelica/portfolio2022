@@ -4,6 +4,7 @@ import { LanguageContext } from "utils/context";
 import { translations } from "utils/translations";
 import { $LanguagesKey } from "customTypes";
 import styles from "./Footer.module.scss";
+import { VscGithubInverted } from "react-icons/vsc";
 
 const Footer = () => {
   const language = useContext(LanguageContext) as $LanguagesKey;
@@ -11,9 +12,15 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <p>
-        {translations.footerText1[language]} 💜 &
-        <img src={reactImg} alt='' width='18' />
-        {translations.footerText2[language]}. 2022
+        <a
+          href='https://github.com/soyAngelica/portfolio2022'
+          target='_blank'
+          rel='noreferrer'>
+          {translations.footerText1[language]} 💜 &
+          <img src={reactImg} alt='' width='18' />
+          {translations.footerText2[language]}. 2022
+          <VscGithubInverted className={styles.githubIcon} />
+        </a>
       </p>
     </div>
   );

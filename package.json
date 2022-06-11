@@ -33,9 +33,9 @@
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test",
+    "build": "react-scripts build",
     "eject": "react-scripts eject",
     "test:tsc": "tsc -p tsconfig.test.json -w",
-    "build": "webpack",
     "watch": "webpack -w",
     "twcss": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },

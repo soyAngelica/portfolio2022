@@ -6,6 +6,7 @@
     "skipLibCheck": true,
     "module": "es2015",
     "moduleResolution": "node",
+    "outDir": "dist",
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -18,7 +19,14 @@
     "experimentalDecorators": true,
     "typeRoots": ["./node_modules/@types", "src/definitions"],
     "noFallthroughCasesInSwitch": true,
-    "useDefineForClassFields": true
+    "useDefineForClassFields": true,
+    "paths": {
+      "components/*": ["./components/*"],
+      "data/*": ["./data/*"],
+      "assets/*": ["./assets/*"],
+      "utils/*": ["./utils/*"],
+      "customTypes": ["./customTypes/*"]
+    }
   },
   "include": ["src"],
   "exclude": ["node_modules"]

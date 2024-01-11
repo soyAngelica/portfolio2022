@@ -2,7 +2,7 @@
   <img alt="Soy Angélica" src="http://soyangelica.com/logo.png" width="100" />
 </div>
 
-# ✨ New Portfolio 2022
+# ✨ New Portfolio 2024
 
 Hey! you can fork this repo with attribution. Please don't forget to give credit linking to [soyangelica.com](http://soyangelica.com) 🌝
 

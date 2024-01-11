@@ -29,7 +29,7 @@ const About = () => {
           className={styles.link}>
           Sofia
         </a>
-        . <br />
+        {translations.aboutText_4_2[language]} <br />
       </>
     ) : (
       <>
@@ -41,7 +41,7 @@ const About = () => {
           className={styles.link}>
           Sofía's
         </a>
-        {translations.aboutText_4_2[language]} <br />
+        {translations.aboutText_4_3[language]} <br />
       </>
     );
 

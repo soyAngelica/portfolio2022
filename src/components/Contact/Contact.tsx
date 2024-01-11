@@ -15,7 +15,7 @@ const Contact = () => {
       <StarNight height='small' dark />
       <div className='pt-20 pb-20 px-12 xl:w-3/5 xl:pb-40 mx-auto'>
         <h3 className={prettyJoin(["text-center w-full mb-4", styles.title])}>
-          💌 hola@soyangelica.com
+          💌 hola@soyangelica.online
         </h3>
         <p className={prettyJoin(["font-regular mb-8", styles.tel])}>
           Tel: +52 55 6974-7205

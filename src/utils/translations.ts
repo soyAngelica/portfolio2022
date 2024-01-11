@@ -7,9 +7,9 @@ export const translations = {
   },
   heroText: {
     [Languages.Es]:
-      " Hace 10 años empecé en este mágico mundo del código y me encanta 💜",
+      " Hace 12 años empecé en este mágico mundo del código y me encanta 💜",
     [Languages.En]:
-      "10 years ago I started on this magic world of code and I love it 💜",
+      "12 years ago I started on this magic world of code and I love it 💜",
   },
   aboutTitle: {
     [Languages.Es]: "Acerca de mi ✨",
@@ -41,13 +41,16 @@ export const translations = {
       ". Helped by a crowdfunding campaign, we teach workshops on sustainable use of technology and programming to more than 120 kids around of 9 communities in the Maya region from Southern Mexico and Northern Guatemala.",
   },
   aboutText_4: {
-    [Languages.Es]: "Actualmente soy parte del equipo de ingenieria en ",
+    [Languages.Es]: "Después de ser parte del equipo de ingenieria en ",
   },
   aboutText_4_1: {
-    [Languages.En]: "Currently I'm part of ",
+    [Languages.En]: "After being part of ",
   },
   aboutText_4_2: {
-    [Languages.En]: " engineering team.",
+    [Languages.Es]: " (y convertirme en mamá), ¡Estoy de vuelta en el mundo del freelanceo!",
+  },
+  aboutText_4_3: {
+    [Languages.En]: " engineering team (and becoming a mom), I'm back in the freelancer world!",
   },
   aboutText_5: {
     [Languages.Es]:
@@ -73,9 +76,9 @@ export const translations = {
   },
   contactText: {
     [Languages.Es]:
-      "Actualmente soy muy feliz trabajando en Sofía pero siempre me gustará leer algún saludo, si tienes dudas, o que me cuentes acerca de un nuevo proyecto.",
+      "Si tienes algún nuevo proyecto, o quieres rediseñar tu website o tienda en línea, ¡Escríbeme!. Me encantaría colaborar contigo.",
     [Languages.En]:
-      "I'm so happy working at Sofía but I will always love to read you saying hi, if you have any question, or if you want to talk about a new project.",
+      "If you have a new project in mind or are looking to redesign your website or online store, feel free to reach out. I'd love to collaborate with you.",
   },
   footerText1: {
     [Languages.Es]: "Hecho con ",

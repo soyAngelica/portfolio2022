@@ -12,15 +12,10 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <p>
-        <a
-          href='https://github.com/soyAngelica/portfolio2022'
-          target='_blank'
-          rel='noreferrer'>
-          {translations.footerText1[language]} 💜 &
+          {translations.footerText1[language]} ❤️ &
           <img src={reactImg} alt='' width='18' />
-          {translations.footerText2[language]}. 2022
+          {translations.footerText2[language]}. 2024
           <VscGithubInverted className={styles.githubIcon} />
-        </a>
       </p>
     </div>
   );

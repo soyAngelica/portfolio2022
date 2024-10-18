@@ -9,6 +9,7 @@ import SocialBar from "./components/SocialBar";
 import Switch from "./components/Switch";
 import { Languages } from "./customTypes";
 import "./styles/main.scss";
+import AppRoutes from "AppRoutes";
 
 const SwitchOptions = [Languages.Es, Languages.En];
 
@@ -29,11 +30,7 @@ const App: React.FC<AppProps> = ({ title }) => {
             setCurrentLanguage(lang);
           }}
         />
-        <SocialBar />
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
+       <AppRoutes />
       </Layout>
     </LanguageContext.Provider>
   );

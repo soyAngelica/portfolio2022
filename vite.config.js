@@ -4,6 +4,9 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import path from "path";
 
 export default defineConfig({
+  server: {
+    port: 4000,
+  },
   plugins: [react(), tsconfigPaths()],
   resolve: {
     alias: {

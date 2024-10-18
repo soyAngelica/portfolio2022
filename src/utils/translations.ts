@@ -11,6 +11,10 @@ export const translations = {
     [Languages.En]:
       "12 years ago I started on this magic world of code and I love it 💜",
   },
+  aboutMeLink: {
+    [Languages.Es]: "Acerca de mi",
+    [Languages.En]: "About me",
+  },
   aboutTitle: {
     [Languages.Es]: "Acerca de mi ✨",
     [Languages.En]: "About me ✨",

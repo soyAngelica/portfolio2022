@@ -2,14 +2,6 @@
 
 .container {
   position: relative;
-  background: $mardi-gras;
-  background: -webkit-linear-gradient(
-    to right,
-    $mardi-gras,
-    $mardi-gras,
-    $jaguar
-  );
-  background: linear-gradient(to right, $mardi-gras, $mardi-gras, $jaguar);
   padding-bottom: 20px;
 }
 

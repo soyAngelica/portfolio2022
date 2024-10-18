@@ -14,4 +14,15 @@ body {
   background-color: $jaguar;
   font-family: "Rubik", sans-serif;
   font-size: $font-size-base;
+  background: $mardi-gras;
+  background: -webkit-linear-gradient(
+    to right,
+    $mardi-gras,
+    $mardi-gras,
+    $jaguar
+  );
+  background: linear-gradient(to right, $mardi-gras, $mardi-gras, $jaguar);
 }
+
+
+

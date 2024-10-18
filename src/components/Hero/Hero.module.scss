@@ -2,8 +2,6 @@
 
 .container {
   width: 100%;
-  height: 100vh;
-  min-height: 600px;
 }
 
 .profile {
@@ -15,7 +13,7 @@
     margin: 0px auto;
   }
   @include above($lg-breakpoint) {
-    left: 40px;
+    left: 0px;
   }
   @include above($xl-breakpoint) {
     max-width: 420px;
@@ -166,4 +164,17 @@
   100% {
     opacity: 0;
   }
+}
+
+
+.about {
+  display: block;
+  text-decoration: none;
+  font-size: $font-size-xs;
+  margin: 0px auto;
+  max-width: 80%;
+  text-align: center;
+  color: $aquamarine;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
 }

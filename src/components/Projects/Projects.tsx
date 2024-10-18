@@ -96,10 +96,10 @@ const Projects = () => {
                       <figcaption className='font-medium'>
                         <div>
                           <a
-                            href='https://www.therushinghour.com/collections/all'
+                            href='http://www.loseternos.com.mx/'
                             target='_blank'
                             rel='noreferrer'>
-                            THE RUSHING HOUR
+                            LOS ETERNOS CREATIVOS
                           </a>
                         </div>
                       </figcaption>

@@ -14,6 +14,7 @@ import { LanguageContext } from "utils/context";
 import { prettyJoin } from "utils/string";
 import { translations } from "utils/translations";
 import styles from "./About.module.scss";
+import { Link } from "react-router-dom";
 
 const About = () => {
   const language = useContext(LanguageContext) as $LanguagesKey;
@@ -104,6 +105,12 @@ const About = () => {
               ])}>
               {translations.aboutText_5[language]}
             </p>
+            <Link to="/" className={prettyJoin([
+                "dark:text-white font-regular mb-8 ",
+                styles.text,
+              ])}  style={{fontSize: "26px", color: "#a1fee7"}}>
+              ← Volver
+            </Link>
           </div>
           <div className='w-full lg:w-2/5 h-full lg:pr-10 xl:pr-0 md:px-14 relative'>
             <p className={prettyJoin(["uppercase mb-4", styles.skills])}>

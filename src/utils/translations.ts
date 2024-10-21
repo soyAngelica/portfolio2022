@@ -85,6 +85,12 @@ export const translations: Translations = {
     [Languages.Es]: "Mi versión de Pokedex 💖",
     [Languages.En]: "My Pokedex version 💖",
   },
+  contactMail: {
+    [Languages.Es]:
+      "Escríbeme a mi correo",
+    [Languages.En]:
+      "Send me an email",
+  },
   contactText: {
     [Languages.Es]:
       "Si tienes algún nuevo proyecto, o quieres rediseñar tu website o tienda en línea, ¡Escríbeme!. Me encantaría colaborar contigo.",

@@ -4,7 +4,7 @@ import { ReactNode, useContext } from "react";
 import { LanguageContext } from "utils/context";
 import { prettyJoin } from "utils/string";
 import { translations } from "utils/translations";
-import { $LanguagesKey } from "customTypes";
+import { $LanguagesKey } from "../../customTypes";
 import styles from "./JobSection.module.scss";
 
 interface JobDataInterface {
@@ -25,10 +25,10 @@ const JobSection = ({data}: JobSectionProps) => {
   return (
    <section className={styles.container}>
     <div className='p-20 lg:flex items-center relative z-10 container mx-auto'>
-         <div className={prettyJoin(["w-full lg:w-2/3 h-full", styles.intro])} >
+            <div className={prettyJoin(["w-full lg:w-2/3 h-full", styles.intro])} >
                 {data.cover}
             </div>
-            <div className={prettyJoin(["w-full lg:w-1/3 h-full", styles.intro])}>
+            <div className={prettyJoin(["w-full lg:w-1/3 h-full text-center lg:text-left", styles.intro])}>
                 {data.icon}
                 <h2 className={prettyJoin(["text-white pb-2 pt-2", styles.text])}>{data.name}</h2>
                 <p className={prettyJoin(["text-white font-regular", styles.role])}>

@@ -11,6 +11,7 @@ const Home = () => {
             <SocialBar />
             <Hero />
             <LastJobs />
+            <Projects />
             <Contact />
         </>
     )

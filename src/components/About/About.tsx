@@ -9,7 +9,7 @@ import {
   HiOutlineTemplate,
   HiOutlineTerminal,
 } from "react-icons/hi";
-import { $LanguagesKey, Languages } from "customTypes";
+import { $LanguagesKey, Languages } from "../../customTypes";
 import { LanguageContext } from "utils/context";
 import { prettyJoin } from "utils/string";
 import { translations } from "utils/translations";

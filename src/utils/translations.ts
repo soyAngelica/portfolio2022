@@ -1,6 +1,13 @@
-import { Languages } from "customTypes";
+import { Languages } from "../customTypes";
 
-export const translations = {
+type Translations = {
+  [key: string]: {
+    [key in Languages]?: string;
+  };
+};
+
+
+export const translations: Translations = {
   heroTitle: {
     [Languages.Es]: " Hola, soy Angélica ✨",
     [Languages.En]: "Hi there! I'm Angélica ✨",
@@ -75,8 +82,8 @@ export const translations = {
     [Languages.En]: "Work in progress!",
   },
   projectsSoon_2: {
-    [Languages.Es]: "Muy pronto podrás ver proyectos bonitos aquí 💖",
-    [Languages.En]: "You could see here pretty projects very soon 💖",
+    [Languages.Es]: "Mi versión de Pokedex 💖",
+    [Languages.En]: "My Pokedex version 💖",
   },
   contactText: {
     [Languages.Es]:

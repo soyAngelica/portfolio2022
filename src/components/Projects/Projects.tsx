@@ -1,7 +1,7 @@
-import duracell from "assets/img/duracell.jpg";
-import ferrari from "assets/img/ferrari.jpg";
-import heroes from "assets/img/heroes.jpg";
+import eternos from "assets/img/eternos.jpg";
 import manada from "assets/img/manada.jpg";
+import orbents from "assets/img/orbents.jpg";
+import pokedex from "assets/img/pokedex.jpg";
 import rushing from "assets/img/rushing.jpg";
 import tresor from "assets/img/tresor.jpg";
 import { useContext, useEffect, useState } from "react";
@@ -9,7 +9,7 @@ import SwipeableViews from "react-swipeable-views";
 import { LanguageContext } from "utils/context";
 import { prettyJoin } from "utils/string";
 import { translations } from "utils/translations";
-import { $LanguagesKey } from "customTypes";
+import { $LanguagesKey } from "../../customTypes";
 import SwipeButton from "../SwipeButton";
 import styles from "./Projects.module.scss";
 
@@ -59,6 +59,33 @@ const Projects = () => {
                     "xl:w-1/3",
                     styles.projectCard,
                   ])}>
+                  <img src={eternos} alt='' />
+                  <figure
+                    className={prettyJoin([
+                      "rounded-sm p-8 dark:bg-slate-800 mr-6",
+                      styles.cardTwo,
+                    ])}>
+                    <div className='pt-6 space-y-4'>
+                      <figcaption className='font-medium'>
+                        <div>
+                          <a
+                            href='http://www.loseternos.com.mx/'
+                            target='_blank'
+                            rel='noreferrer'>
+                            LOS ETERNOS CREATIVOS
+                          </a>
+                        </div>
+                      </figcaption>
+                      <p className={styles.stack}>HTML - CSS - JQUERY </p>
+                    </div>
+                  </figure>
+                </div>
+                <div
+                  className={prettyJoin([
+                    "lg:w-2/3",
+                    "xl:w-1/3",
+                    styles.projectCard,
+                  ])}>
                   <img src={manada} alt='' />
                   <figure
                     className={prettyJoin([
@@ -76,34 +103,7 @@ const Projects = () => {
                           </a>
                         </div>
                       </figcaption>
-                      <p className={styles.stack}>Wordpress</p>
-                    </div>
-                  </figure>
-                </div>
-                <div
-                  className={prettyJoin([
-                    "lg:w-2/3",
-                    "xl:w-1/3",
-                    styles.projectCard,
-                  ])}>
-                  <img src={rushing} alt='' />
-                  <figure
-                    className={prettyJoin([
-                      "rounded-sm p-8 dark:bg-slate-800 mr-6",
-                      styles.cardTwo,
-                    ])}>
-                    <div className='pt-6 space-y-4'>
-                      <figcaption className='font-medium'>
-                        <div>
-                          <a
-                            href='http://www.loseternos.com.mx/'
-                            target='_blank'
-                            rel='noreferrer'>
-                            LOS ETERNOS CREATIVOS
-                          </a>
-                        </div>
-                      </figcaption>
-                      <p className={styles.stack}>Shopify</p>
+                      <p className={styles.stack}>WORDPRESS</p>
                     </div>
                   </figure>
                 </div>
@@ -130,7 +130,7 @@ const Projects = () => {
                           </a>
                         </div>
                       </figcaption>
-                      <p className={styles.stack}>Shopify</p>
+                      <p className={styles.stack}>SHOPIFY</p>
                     </div>
                   </figure>
                 </div>
@@ -138,32 +138,14 @@ const Projects = () => {
               <div className='lg:pt-40 xl:pt-60 lg:flex items-center relative z-10 container mx-auto md:px-12'>
                 <div
                   className={prettyJoin([
-                    "lg:w-2/3",
-                    "xl:w-1/3",
+                    "lg:w-1/6",
+                    "xl:w-1/6",
                     styles.projectCard,
                     styles.left,
                   ])}>
-                  <img src={ferrari} alt='' />
-                  <figure
-                    className={prettyJoin([
-                      " rounded-sm p-8 dark:bg-slate-800 mr-6",
-                      styles.cardTwo,
-                    ])}>
-                    <div className='pt-6 space-y-4'>
-                      <figcaption className='font-medium'>
-                        <div>
-                          <a
-                            href='http://soyangelica.com/archives/panini-ferrari/'
-                            target='_blank'
-                            rel='noreferrer'>
-                            PANINI: FERRARI GT COLLECTION
-                          </a>
-                        </div>
-                      </figcaption>
-                      <p className={styles.stack}>HTML - CSS - JQUERY </p>
-                    </div>
-                  </figure>
+                 
                 </div>
+                
                 <div
                   className={prettyJoin([
                     "lg:w-2/3",
@@ -171,7 +153,7 @@ const Projects = () => {
                     styles.projectCard,
                     styles.left,
                   ])}>
-                  <img src={duracell} alt='' />
+                  <img src={orbents} alt='' />
                   <figure
                     className={prettyJoin([
                       "rounded-sm p-8 dark:bg-slate-800 mr-6",
@@ -181,42 +163,42 @@ const Projects = () => {
                       <figcaption className='font-medium'>
                         <div>
                           <a
-                            href='http://duracellauto.com.mx/'
+                            href='https://orbents.com.mx/'
                             target='_blank'
                             rel='noreferrer'>
-                            DURACELL AUTO MÉXICO
+                            ORBENTS
                           </a>
                         </div>
                       </figcaption>
-                      <p className={styles.stack}>HTML - CSS - JQUERY </p>
+                      <p className={styles.stack}>SHOPIFY</p>
                     </div>
                   </figure>
                 </div>
-                <div
+                 <div
                   className={prettyJoin([
                     "lg:w-2/3",
                     "xl:w-1/3",
                     styles.projectCard,
                     styles.left,
                   ])}>
-                  <img src={heroes} alt='' />
+                  <img src={rushing} alt='' />
                   <figure
                     className={prettyJoin([
-                      "rounded-sm p-8 dark:bg-slate-800 mr-6",
+                      " rounded-sm p-8 dark:bg-slate-800 mr-6",
                       styles.cardTwo,
                     ])}>
                     <div className='pt-6 space-y-4'>
                       <figcaption className='font-medium'>
                         <div>
                           <a
-                            href='http://soyangelica.com/archives/panini-heroes/'
+                            href='https://www.luxmo.car/'
                             target='_blank'
                             rel='noreferrer'>
-                            PANINI: HÉROES DE COLECCIÓN
+                            LUXMO
                           </a>
                         </div>
                       </figcaption>
-                      <p className={styles.stack}>HTML - CSS - JQUERY </p>
+                      <p className={styles.stack}>WEBFLOW</p>
                     </div>
                   </figure>
                 </div>
@@ -226,17 +208,33 @@ const Projects = () => {
           <div className={styles.slide}>
             <h3
               className={prettyJoin(["text-center w-full mb-4", styles.title])}>
-              - {translations.projectsTitle_1[language]} -
+              - {translations.projectsTitle_1[language]} - 
             </h3>
-            <div className={prettyJoin(["pt-20", styles.soonContainer])}>
-              <h3
-                className={prettyJoin([
-                  "text-center w-full mb-4",
-                  styles.title,
-                ])}>
-                {translations.projectsSoon_1[language]} <br />
-                {translations.projectsSoon_2[language]}
-              </h3>
+            <div className={prettyJoin(["pt-0", styles.soonContainer])}>
+              <a href="https://pokeproject-2024.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <h3
+                  className={prettyJoin([
+                    "text-center w-full mb-4",
+                    styles.title,
+                  ])}>
+                  {translations.projectsSoon_2[language]}
+                </h3>
+                <p className={prettyJoin([
+                    "text-center w-full text-2xl",
+                    styles.stack,
+                  ])}>TYPESCRIPT - REACT JS - VITE JS - TAILWIND CSS
+                </p>
+              </a>
+              <div className='w-full py-8 mx-auto text-center'>
+                 <div
+                  className={prettyJoin([
+                    styles.ownProjectCard,
+                  ])}>
+                  <a href="https://pokeproject-2024.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <img src={pokedex} className="mx-auto" alt='' />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </SwipeableViews>

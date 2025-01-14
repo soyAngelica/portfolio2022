@@ -5,9 +5,11 @@ import Portfolio3 from "@assets/img/3.png";
 const Portfolio = () => {
   return (
     <div className="pt-16 pb-20">
-      <h2 className="text-left text-3xl text-teal">Freelancer Web Portfolio</h2>
-      <div className="flex space-x-24 mt-10">
-        <div className="relative ">
+      <h2 className="text-left text-2xl font-bold md:font-normal md:text-3xl text-teal">
+        Freelancer Web Portfolio
+      </h2>
+      <div className="md:flex md:space-x-10 lg:space-x-24 mt-10 w-[80%] md:w-full">
+        <div className="relative mb-14 md:mb-0">
           <a href="https://www.tresordezoe.com/" target="_blank">
             <img
               src={Portfolio1}
@@ -21,7 +23,7 @@ const Portfolio = () => {
             </div>
           </a>
         </div>
-        <div className="relative">
+        <div className="relative mb-14 md:mb-0">
           <a href="http://www.loseternos.com.mx/" target="_blank">
             <img
               src={Portfolio3}
@@ -35,7 +37,7 @@ const Portfolio = () => {
             </div>
           </a>
         </div>
-        <div className="relative">
+        <div className="relative mb-14 md:mb-0">
           <a href="https://manada.mx/" target="_blank">
             <img
               src={Portfolio2}

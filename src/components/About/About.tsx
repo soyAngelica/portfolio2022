@@ -7,7 +7,9 @@ const About = () => {
     <div>
       <Header />
       <div className="pb-12">
-        <h2 className="text-left text-3xl text-teal mb-2">About me</h2>
+        <h2 className="text-left text-2xl mb-2 md:text-3xl text-teal">
+          About me
+        </h2>
         <p className="text-lg text-left mb-2">
           I'm a mexican frontend developer, coding since 2012.
         </p>
@@ -44,7 +46,7 @@ const About = () => {
         </p>
       </div>
       <div className="pb-20 pt-8 block border-t-2 border-t-zinc-200">
-        <h2 className="text-left text-3xl text-teal mb-2 ">
+        <h2 className="text-left text-2xl mb-2 md:text-3xl text-teal">
           Volunteering & Education
         </h2>
         <p className="text-lg text-left mb-2">
@@ -57,7 +59,7 @@ const About = () => {
         <img
           src={MentesAmbulantes}
           alt="Mentes Ambulantes"
-          className="block pt-10 max-w-[1000px]"
+          className="block pt-10 md:max-w-[85%]"
         />
       </div>
       <Footer />

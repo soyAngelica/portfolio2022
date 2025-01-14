@@ -2,10 +2,12 @@ import StackSlider from "../StackSlider";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between pb-20 border-b-2 border-b-zinc-200">
-      <div className="w-1/3">
-        <p className="text-5xl text-left mb-3 text-teal">Frontend Developer</p>
-        <p className="text-lg text-left mb-2">
+    <div className="md:flex justify-between pb-14 mb:pb-20 border-b-2 border-b-zinc-200">
+      <div className="md:w-1/3">
+        <p className="text-2xl md:text-5xl text-left font-bold md:font-normal mb-3 text-teal">
+          Frontend Developer
+        </p>
+        <p className="text-lg text-left mb-2 ">
           Coder and mom. I'm an improvement enthusiast, deeply embedded in the
           JavaScript ecosystem.
         </p>
@@ -15,17 +17,20 @@ const Hero = () => {
           </a>
         </p>
       </div>
-      <div className="w-2/3 text-right">
+      <div className="md:w-2/3 md:text-right pt-4 md:pt-0">
         <div>
-          <p className="text-3xl mb-2">
+          <p className="text-lg md:text-3xl mb-1 md:mb-2">
             React JS - TypeScript - Next JS - Redux | Mobx - REST APIs
           </p>
-          <p className="text-3xl mb-2"> Tailwind CSS & Ant Design</p>
-          <p className="text-2xl mb-2">
+          <p className="text-lg md:text-3xl mb-1 md:mb-2">
+            {" "}
+            Tailwind CSS & Ant Design
+          </p>
+          <p className="text-sm md:text-2xl mb-2">
             Node JS - Express JS - PostgreSQL - MySQL - GraphQL
           </p>
         </div>
-        <div className="flex text-right justify-end mt-4">
+        <div className="flex text-right md:justify-end mt-6">
           <StackSlider />
         </div>
       </div>

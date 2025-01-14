@@ -6,10 +6,10 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <div className="flex justify-between pb-16">
-      <figure className="flex">
+    <div className="flex justify-between pb-4 mb:pb-16">
+      <figure className="md:flex">
         <img className="w-32 h-32 md:w-40 md:h-40 rounded-full" src={Pic} />
-        <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+        <div className="pt-6 md:p-8 text-left">
           <figcaption className="font-medium">
             <div className="text-slate-700 dark:text-slate-500 text-xl">
               Angélica Aguilar

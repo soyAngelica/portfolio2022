@@ -38,8 +38,9 @@ const Header = () => {
           <a
             href="/src/assets/docs/AngelicaCuevas-Frontend-Engineer-CV.pdf"
             target="_blank"
+            download
           >
-            Resume CV
+            Download resume
           </a>
         </button>
       </div>

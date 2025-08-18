@@ -1,6 +1,5 @@
-import { FiCodepen, FiGithub, FiLinkedin } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
-import { PiReadCvLogoBold } from "react-icons/pi";
+import { FiCodepen, FiGithub, FiLinkedin } from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -14,11 +13,11 @@ const Footer = () => {
         <ul className="flex text-xl gap-2 mt-2">
           <li>
             <a
-              href="https://read.cv/soyangelica"
+              href="https://github.com/soyAngelica"
               target="_blank"
               rel="noreferrer"
             >
-              <PiReadCvLogoBold />
+              <FiGithub />
             </a>
           </li>
           <li>
@@ -37,16 +36,6 @@ const Footer = () => {
               rel="noreferrer"
             >
               <FaXTwitter />
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="https://github.com/soyAngelica"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FiGithub />
             </a>
           </li>
           <li>

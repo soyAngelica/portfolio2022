@@ -18,7 +18,7 @@ const Header = () => {
               </span>
             </div>
             <div className="text-teal dark:text-teal font-bold text-lg">
-              From Mexico, based in Phuket, Thailand UTC+7
+              Based in Phuket, Thailand (UTC+7)
             </div>
           </figcaption>
         </div>

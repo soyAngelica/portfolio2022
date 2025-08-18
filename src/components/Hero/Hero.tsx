@@ -8,8 +8,8 @@ const Hero = () => {
           Frontend Developer
         </p>
         <p className="text-lg text-left mb-2 ">
-          Coder and mom. I'm an improvement enthusiast, deeply embedded in the
-          JavaScript ecosystem.
+          Developer and mom, always curious. <br />I enjoy working with
+          JavaScript, improving processes, and turning ideas into real projects.
         </p>
         <p className="text-left text-lg">
           <a href="/about" className="text-teal hover:text-gray-500">

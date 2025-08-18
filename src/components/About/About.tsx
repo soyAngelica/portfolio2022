@@ -26,11 +26,11 @@ const About = () => {
           </a>
           and
           <a
-            href="https://www.xy.group/"
+            href="https://www.meltwater.com/en"
             target="_blank"
             className="text-teal ml-1 mr-1"
           >
-            XY Booster
+            Meltwater
           </a>
           . I've also had the opportunity to mentor aspiring developers, sharing
           my knowledge in web development and programming.

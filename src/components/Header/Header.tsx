@@ -23,7 +23,7 @@ const Header = () => {
           </figcaption>
         </div>
       </figure>
-      <div className="flex justify-between">
+      <div className="md:flex justify-between">
         {location.pathname !== "/" && (
           <a
             href="/"

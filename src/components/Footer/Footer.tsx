@@ -1,9 +1,8 @@
-import { FaXTwitter } from "react-icons/fa6";
 import { FiCodepen, FiGithub, FiLinkedin } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between pt-8 border-t-2 border-t-zinc-200">
+    <div className="md:flex justify-between pt-8 border-t-2 border-t-zinc-200">
       <div className="w-1/4">
         <p className="text-xl">
           <a href="mailto:soyangelica.aguilar@gmail.com">

@@ -36,6 +36,7 @@ const Header = () => {
         <button className="cursor-pointer flex center gap-2 border-gray-300 hover:border-teal rounded-full px-4 py-4 h-10 items-center">
           <div className="w-[10px] h-[10px] bg-emerald-700 rounded-full animate-pulse"></div>
           <a
+            className="text-[14px] leading-[18px] sm:text-base sm:leading-6"
             href="/docs/AngelicaCuevas-Frontend-Engineer-CV.pdf"
             target="_blank"
             download

@@ -31,15 +31,6 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://twitter.com/sisoyangelica"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaXTwitter />
-            </a>
-          </li>
-          <li>
-            <a
               href="https://codepen.io/soyangelica"
               target="_blank"
               rel="noreferrer"

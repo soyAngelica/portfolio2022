@@ -36,7 +36,7 @@ const phases = [
       "Integración con Calendly para reservar y pagar tus sesiones 1:1",
       "Claude conectado a todas tus herramientas, para que mandes correos, crees campañas, armes descuentos y planees tus clases con solo pedírselo",
     ],
-    note: "Así empezamos a generar ingresos con la audiencia que ya tienes mientras se construye la app. Cada lección y rutina que crees aquí es el mismo contenido que adaptamos para la app, así que nada se hace dos veces.",
+    note: "Esta fase permite generar ingresos con la audiencia actual mientras se desarrolla la app. Todo el contenido creado aquí, lecciones y rutinas, se adapta directamente a la app, lo que evita duplicar el trabajo de producción.",
   },
   {
     n: "3",

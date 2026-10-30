@@ -37,8 +37,8 @@ const Hero = () => {
           <StackSlider />
         </div>
         <p className="flex items-center gap-2 md:justify-end mt-4 text-sm text-zinc-600">
+          <OctoIcon className="text-teal text-2xl" />
           <FiTerminal className="text-teal" aria-hidden="true" />
-          <OctoIcon className="text-teal" />
           I build with Claude Code as my AI pair programmer.
         </p>
       </div>

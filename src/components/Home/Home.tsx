@@ -3,6 +3,7 @@ import Header from "../Header";
 import Hero from "../Hero";
 import Portfolio from "../Portfolio";
 import Projects from "../Projects";
+import SideProjects from "../Projects/SideProjects";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <Projects />
       <Portfolio />
+      <SideProjects />
       <Footer />
     </div>
   );

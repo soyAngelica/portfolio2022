@@ -24,6 +24,7 @@ const phases = [
     text: "One place for your courses and your specialist directory. It is built for the web, but designed for people who live on their phones: it opens from Instagram, works like an app and can be saved to the home screen.",
     items: [
       "My Facefit for individuals and Facefit Pro (ProHealth and ProBeauty) for professionals",
+      "Short 3–7 minute videos for individuals, easy to do anywhere; longer, in-depth lessons for professionals",
       "Monthly or yearly memberships, plus a clinic license so dentists can give access to their patients",
       "Member area with progress, videos and certificates",
       "Specialist network: Facefit Pro graduates can be listed, paid or in exchange for recommending you with a discount code",
@@ -37,13 +38,18 @@ const phases = [
     title: "The Facefit app",
     hours: 500,
     time: "3–4 months",
-    text: "Your routines with the camera on and a live on-screen guide that shows where to place your hands, for iOS and Android.",
+    text: "Your routines with the camera on and a live on-screen guide that shows where to place your hands, for iOS and Android. Built so people open it every day, not once.",
     items: [
-      "Real-time face and hand guide",
-      "Daily routines, streaks and achievements so people come back every day",
+      "Real-time face and hand guide with the camera",
+      "Quick 3–7 minute daily routines",
+      "Streaks, medals, levels and weekly challenges",
+      "Achievement cards people can share on Instagram, bringing new users to you",
+      "Private progress photos with before-and-after comparisons",
+      "Push notifications: daily reminders, streak saves and check-ins for longer programs",
       "Same account, courses and content as the web app",
       "Launches to an audience that already knows and pays for Facefit",
     ],
+    note: "The leading face yoga apps, Luvly and FaceYogi, have 16–20K ratings each and charge from USD 10 a week to 20 a month, so people already pay for this. None of them guides your hands with the camera in real time, and none is backed by a physiotherapist's method. That is Facefit's edge.",
   },
 ];
 
@@ -98,6 +104,15 @@ const FacefitQuote = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="mt-6 rounded-2xl border-2 border-teal px-6 py-5">
+        <p className="text-lg font-semibold text-teal mb-1">A quick demo first</p>
+        <p className="text-lg">
+          If we start with Phase 1, I'll build a clickable demo of the web app
+          and the app in a couple of days, so you can see and try it before
+          deciding the next phase.
+        </p>
       </div>
 
       <div className="mt-6 rounded-2xl bg-[#e2ebff] px-6 py-5 md:flex justify-between items-center gap-6">

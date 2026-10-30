@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="md:w-2/3 md:text-right pt-4 md:pt-0">
         <div>
           <p className="text-lg md:text-3xl mb-1 md:mb-2">
-            React Native - React - Next JS - TypeScript
+            React Native - React - Next JS - TypeScript - Redux
           </p>
           <p className="text-lg md:text-3xl mb-1 md:mb-2">
             REST APIs - GraphQL
@@ -31,7 +31,7 @@ const Hero = () => {
             Tailwind CSS - Ant Design
           </p>
           <p className="text-sm md:text-2xl mb-2">
-            Node JS - Express - PostgreSQL - MySQL - Redux | Mobx
+            Node JS - Express - PostgreSQL - MySQL
           </p>
         </div>
         <p className="flex items-center gap-2 md:justify-end mt-4 text-sm text-zinc-600">

@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="md:flex justify-between pb-14 mb:pb-20 border-b-2 border-b-zinc-200">
       <div className="md:w-1/3">
         <p className="text-2xl md:text-5xl text-left font-bold md:font-normal mb-3 text-teal">
-          Frontend Developer
+          Software Developer
         </p>
         <p className="text-lg text-left mb-2 ">
           Mexican developer, mom, and neurodivergent thinker.

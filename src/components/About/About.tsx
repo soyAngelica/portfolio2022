@@ -11,7 +11,7 @@ const About = () => {
           About me
         </h2>
         <p className="text-lg text-left mb-2">
-          I'm a mexican frontend developer, coding since 2012.
+          I'm a Mexican software developer, coding since 2012.
         </p>
         <p className="text-lg text-left mb-2">
           Over the years, I’ve contributed to multiple projects, including

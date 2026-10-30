@@ -7,7 +7,7 @@ import Portfolio7 from "@assets/img/wordtorque.jpg";
 
 const Portfolio = () => {
   return (
-    <div className="pt-16 pb-20">
+    <div className="mt-16 pt-16 pb-20 border-t border-t-zinc-200">
       <h2 className="text-left text-2xl font-bold md:font-normal md:text-3xl text-teal">
         Freelance Web & Web Apps
       </h2>

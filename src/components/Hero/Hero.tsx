@@ -24,7 +24,9 @@ const Hero = () => {
             React Native - React - Next JS - TypeScript
           </p>
           <p className="text-lg md:text-3xl mb-1 md:mb-2">
-            Tailwind CSS - Ant Design - REST APIs - GraphQL
+            REST APIs - GraphQL
+            <span className="text-zinc-300 mx-3" aria-hidden="true">|</span>
+            Tailwind CSS - Ant Design
           </p>
           <p className="text-sm md:text-2xl mb-2">
             Node JS - Express - PostgreSQL - MySQL - Redux | Mobx

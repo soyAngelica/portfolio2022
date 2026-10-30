@@ -65,7 +65,7 @@ const About = () => {
               />
             </a>
           </div>
-          <div className="md:flex-1">
+          <div className="md:flex-1 md:pt-[4.6%]">
             <a
               href="https://mentes-ambulantes.vercel.app/"
               target="_blank"

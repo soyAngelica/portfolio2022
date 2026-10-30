@@ -135,7 +135,7 @@ const SofiaSlider = ({ href }: { href?: string }) => {
               aria-label={`Show screen ${i + 1}`}
               onClick={() => setIndex(i)}
               className={`block p-0 border-0 h-4 w-8 rounded-full transition-all ${
-                i === index ? "bg-[#7a5ae0]" : "[#7a5ae0]/30"
+                i === index ? "bg-[#7a5ae0]" : "bg-[#7a5ae0]/30"
               }`}
             />
           ))}

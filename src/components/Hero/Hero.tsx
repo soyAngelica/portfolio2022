@@ -21,14 +21,14 @@ const Hero = () => {
       <div className="md:w-2/3 md:text-right pt-4 md:pt-0">
         <div>
           <p className="text-lg md:text-3xl mb-1 md:mb-2">
-            React JS - TypeScript - Next JS - Redux | Mobx - REST APIs
+            React Native - Expo - React JS - TypeScript - Next JS - REST APIs
           </p>
           <p className="text-lg md:text-3xl mb-1 md:mb-2">
             {" "}
             Tailwind CSS & Ant Design
           </p>
           <p className="text-sm md:text-2xl mb-2">
-            Node JS - Express JS - PostgreSQL - MySQL - GraphQL
+            Node JS - Express JS - PostgreSQL - MySQL - GraphQL - Redux | Mobx
           </p>
         </div>
         <div className="flex text-right md:justify-end mt-6">

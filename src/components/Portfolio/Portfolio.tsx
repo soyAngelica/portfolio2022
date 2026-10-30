@@ -3,6 +3,7 @@ import Portfolio2 from "@assets/img/2.png";
 import Portfolio3 from "@assets/img/3.png";
 import Portfolio4 from "@assets/img/resonantia.jpg";
 import Portfolio6 from "@assets/img/duracell-2018.jpg";
+import Portfolio7 from "@assets/img/wordtorque.jpg";
 
 const Portfolio = () => {
   return (
@@ -85,6 +86,20 @@ const Portfolio = () => {
                 Duracell MX (Version 2018)
               </p>
               <p className="text-lg">HTML • CSS • JS • JQUERY • PHP</p>
+            </div>
+          </a>
+        </div>
+        <div className="relative mb-14 md:mb-0">
+          <a href="https://wordtorque.com/platform/welcome/" target="_blank">
+            <img
+              src={Portfolio7}
+              alt="WordTorque Platform"
+              className="w-full rounded-md shadow-lg"
+            />
+            <div className="absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center"></div>
+            <div className="py-4">
+              <p className="text-xl text-slate-400">WordTorque Platform</p>
+              <p className="text-lg">WordPress • Elementor</p>
             </div>
           </a>
         </div>

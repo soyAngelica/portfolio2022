@@ -2,6 +2,7 @@ import Footer from "../Footer";
 import Header from "../Header";
 import MentesAmbulantes from "@assets/img/mentesAmbulantes.png";
 import MentesLogo from "@assets/img/mentes-ambulantes-logo.png";
+import MentesSite from "@assets/img/mentes-ambulantes-site.jpg";
 
 const About = () => {
   return (
@@ -51,32 +52,41 @@ const About = () => {
           Volunteering & Education
         </h2>
         <div className="md:flex md:items-start md:gap-10">
-          <a
-            href="https://mentes-ambulantes.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group shrink-0 w-full md:w-1/4 mb-8 md:mb-0 rounded-md shadow-lg bg-teal py-10 md:py-6 md:aspect-[3/4] md:max-h-[420px] flex flex-col items-center justify-center gap-6 p-6 transition-transform hover:-translate-y-1"
-          >
-            <img
-              src={MentesLogo}
-              alt="Mentes Ambulantes"
-              className="w-full max-w-[220px]"
-            />
-            <span className="text-white text-lg">
-              Visit the site{" "}
-              <span className="inline-block transition-transform group-hover:translate-x-1">
-                →
-              </span>
-            </span>
-          </a>
+          <div className="shrink-0 w-full md:w-1/3 mb-8 md:mb-0">
+            <a
+              href="https://mentes-ambulantes.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center rounded-md bg-teal px-6 py-4 mb-4 shadow-lg transition-transform hover:-translate-y-0.5"
+            >
+              <img
+                src={MentesLogo}
+                alt="Mentes Ambulantes"
+                className="w-full max-w-[240px]"
+              />
+            </a>
+            <a
+              href="https://mentes-ambulantes.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-md overflow-hidden shadow-lg transition-transform hover:-translate-y-0.5"
+            >
+              <img
+                src={MentesSite}
+                alt="Mentes Ambulantes website"
+                className="w-full"
+              />
+            </a>
+          </div>
           <div className="md:flex-1">
             <p className="text-lg text-left mb-2">
-              In 2017 my parner Gustavo Merckel and I started an educative roadtrip
-              called Mentes ambulantes. Helped by a crowdfunding campaign, we teach
-              workshops on sustainable use of technology and programming to more
-              than 120 kids around of 9 communities in the Maya region from Southern
-              Mexico and Northern Guatemala.
-            </p>
+              In 2017, my partner Gustavo Merckel and I started Mentes
+            Ambulantes, an educational road trip. With the help of a
+            crowdfunding campaign, we taught workshops on the sustainable use
+            of technology and programming to more than 120 kids in 9
+            communities across the Maya region of southern Mexico and northern
+            Guatemala.
+          </p>
             <img
               src={MentesAmbulantes}
               alt="Mentes Ambulantes workshops"

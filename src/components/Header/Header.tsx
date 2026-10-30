@@ -8,15 +8,20 @@ const Header = () => {
   return (
     <div className="flex justify-between pb-4 mb:pb-16">
       <figure className="md:flex">
-        <img className="w-32 h-32 md:w-40 md:h-40 rounded-full" src={Pic} />
+        <a href="/" aria-label="Go to home" className="block shrink-0">
+          <img className="w-32 h-32 md:w-40 md:h-40 rounded-full" src={Pic} />
+        </a>
         <div className="pt-6 md:p-8 text-left">
           <figcaption className="font-medium">
-            <div className="text-slate-700 dark:text-slate-500 text-xl">
+            <a
+              href="/"
+              className="block text-slate-700 dark:text-slate-500 text-xl hover:text-teal"
+            >
               Angélica Aguilar
               <span className="text-slate-700 dark:text-slate-500 text-xs ml-1">
                 • (She, her)
               </span>
-            </div>
+            </a>
             <div className="text-teal dark:text-teal font-bold text-lg">
               Based in Phuket, Thailand (UTC+7)
             </div>

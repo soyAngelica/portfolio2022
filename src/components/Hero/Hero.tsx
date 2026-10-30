@@ -1,3 +1,4 @@
+import { FiTerminal } from "react-icons/fi";
 import StackSlider from "../StackSlider";
 
 const Hero = () => {
@@ -21,7 +22,7 @@ const Hero = () => {
       <div className="md:w-2/3 md:text-right pt-4 md:pt-0">
         <div>
           <p className="text-lg md:text-3xl mb-1 md:mb-2">
-            React Native - Expo - React JS - TypeScript - Next JS - REST APIs
+            React Native (Apps) - React JS - TypeScript - Next JS - REST APIs
           </p>
           <p className="text-lg md:text-3xl mb-1 md:mb-2">
             {" "}
@@ -34,6 +35,10 @@ const Hero = () => {
         <div className="flex text-right md:justify-end mt-6">
           <StackSlider />
         </div>
+        <p className="flex items-center gap-2 md:justify-end mt-4 text-lg text-zinc-600">
+          <FiTerminal className="text-teal" aria-hidden="true" />
+          I build with Claude Code as my AI pair programmer.
+        </p>
       </div>
     </div>
   );

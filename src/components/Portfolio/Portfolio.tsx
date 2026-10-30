@@ -13,6 +13,20 @@ const Portfolio = () => {
       </h2>
       <div className="md:flex md:space-x-10 lg:space-x-24 mt-10 w-[80%] md:w-full">
         <div className="relative mb-14 md:mb-0">
+          <a href="https://wordtorque.com/platform/welcome/" target="_blank">
+            <img
+              src={Portfolio7}
+              alt="WordTorque Platform"
+              className="w-full rounded-md shadow-lg"
+            />
+            <div className="absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center"></div>
+            <div className="py-4">
+              <p className="text-xl text-slate-400">WordTorque Platform</p>
+              <p className="text-lg">WordPress • Elementor</p>
+            </div>
+          </a>
+        </div>
+        <div className="relative mb-14 md:mb-0">
           <a href="https://resonantia.mx/" target="_blank">
             <img
               src={Portfolio4}
@@ -42,6 +56,8 @@ const Portfolio = () => {
           </a>
         </div>
 
+      </div>
+      <div className="md:flex md:space-x-10 lg:space-x-24 mt-10 w-[80%] md:w-full">
         <div className="relative mb-14 md:mb-0">
           <a href="http://www.loseternos.com.mx/" target="_blank">
             <img
@@ -56,8 +72,6 @@ const Portfolio = () => {
             </div>
           </a>
         </div>
-      </div>
-      <div className="md:flex md:space-x-10 lg:space-x-24 mt-10 w-[80%] md:w-full">
         <div className="relative mb-14 md:mb-0">
           <a href="https://www.nadiyashah.com/" target="_blank">
             <img
@@ -86,20 +100,6 @@ const Portfolio = () => {
                 Duracell MX (Version 2018)
               </p>
               <p className="text-lg">HTML • CSS • JS • JQUERY • PHP</p>
-            </div>
-          </a>
-        </div>
-        <div className="relative mb-14 md:mb-0">
-          <a href="https://wordtorque.com/platform/welcome/" target="_blank">
-            <img
-              src={Portfolio7}
-              alt="WordTorque Platform"
-              className="w-full rounded-md shadow-lg"
-            />
-            <div className="absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center"></div>
-            <div className="py-4">
-              <p className="text-xl text-slate-400">WordTorque Platform</p>
-              <p className="text-lg">WordPress • Elementor</p>
             </div>
           </a>
         </div>

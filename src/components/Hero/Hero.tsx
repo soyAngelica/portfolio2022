@@ -1,5 +1,6 @@
 import { FiTerminal } from "react-icons/fi";
 import StackSlider from "../StackSlider";
+import OctoIcon from "./OctoIcon";
 
 const Hero = () => {
   return (
@@ -37,6 +38,7 @@ const Hero = () => {
         </div>
         <p className="flex items-center gap-2 md:justify-end mt-4 text-sm text-zinc-600">
           <FiTerminal className="text-teal" aria-hidden="true" />
+          <OctoIcon className="text-teal" />
           I build with Claude Code as my AI pair programmer.
         </p>
       </div>

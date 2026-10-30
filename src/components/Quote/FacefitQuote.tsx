@@ -21,7 +21,7 @@ const phases = [
     title: "Web app mobile-first: cursos, membresías y red de especialistas",
     hours: 220,
     time: "7–9 semanas",
-    text: "Un solo lugar para tus cursos y tu directorio de especialistas. Está hecha para web, pero pensada para gente que vive en el celular: se abre desde Instagram, funciona como una app y se puede guardar en la pantalla de inicio.",
+    text: "Cursos, compra de sesiones 1:1 y directorio de especialistas para usuarios. Web app que corre desde el navegador, con un diseño optimizado para dispositivos móviles: funciona como una app y se puede guardar como acceso directo en la pantalla de inicio.",
     items: [
       "My Facefit para particulares y Facefit Pro (ProHealth y ProBeauty) para profesionales",
       "Programa personalizado: un cuestionario inicial define objetivos y zonas de interés (mandíbula, cuello, frente, ojos) y genera un plan semanal que se desbloquea conforme se avanza",

@@ -1,6 +1,4 @@
-import { FiTerminal } from "react-icons/fi";
 import StackSlider from "../StackSlider";
-import OctoIcon from "./OctoIcon";
 
 const Hero = () => {
   return (
@@ -23,21 +21,20 @@ const Hero = () => {
       <div className="md:w-2/3 md:text-right pt-4 md:pt-0">
         <div>
           <p className="text-lg md:text-3xl mb-1 md:mb-2">
-            React Native (Apps) - React JS - TypeScript - Next JS - REST APIs
+            React Native - React - Next JS - TypeScript
           </p>
           <p className="text-lg md:text-3xl mb-1 md:mb-2">
-            {" "}
-            Tailwind CSS & Ant Design
+            Tailwind CSS - Ant Design - REST APIs - GraphQL
           </p>
           <p className="text-sm md:text-2xl mb-2">
-            Node JS - Express JS - PostgreSQL - MySQL - GraphQL - Redux | Mobx
+            Node JS - Express - PostgreSQL - MySQL - Redux | Mobx
           </p>
         </div>
         <div className="flex text-right md:justify-end mt-6">
           <StackSlider />
         </div>
         <p className="flex items-center gap-2 md:justify-end mt-4 text-sm text-zinc-600">
-          <p style={{ width: "24px", height: "24px" }}>
+          <span className="inline-block shrink-0" style={{ width: "24px", height: "24px" }}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <path
                 clip-rule="evenodd"
@@ -46,7 +43,7 @@ const Hero = () => {
                 fill-rule="evenodd"
               />
             </svg>
-          </p>
+          </span>
           I build with Claude Code as my AI pair programmer.
         </p>
       </div>

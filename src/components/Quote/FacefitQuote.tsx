@@ -81,7 +81,7 @@ const FacefitQuote = () => {
               </p>
               <p className="text-2xl mt-1 mb-3">{p.title}</p>
               <p className="text-zinc-500">
-                {p.time} · ~{p.hours} h
+                {p.time}
               </p>
               <p className="text-xl font-semibold text-teal mt-1">
                 {money(p.hours * RATE)}

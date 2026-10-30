@@ -3,18 +3,18 @@ const RATE = 26;
 const phases = [
   {
     n: "1",
-    title: "Estudio de tu público y salida de Shopify",
+    title: "Estudio de mercado y migración de tu sitio",
     hours: 30,
     time: "1–2 semanas",
-    text: "Antes de construir algo grande, escuchamos a tu comunidad y sacamos tu sitio de Shopify para que dejes de pagar la mensualidad.",
+    text: "Estudio de mercado y perfilación de clientes, junto con la migración de tu sitio a una plataforma sin cuota mensual.",
     items: [
-      "Quiz corto para tus seguidores de Instagram, pensado para abrirse desde stories",
-      "A cambio de su correo: un workout gratis, un descuento de lanzamiento en tu libro o la rifa de sesiones 1:1 gratis (lo definimos juntas)",
-      "Cada respuesta se guarda en una base de datos de registros, separando profesionales y particulares, y nos muestra quién está interesado en trabajar contigo",
-      "Sabemos qué necesita la gente, qué le duele más y cuánto pagaría, para construir un producto mejor y más enfocado",
-      "myfacefit.com sale de Shopify y queda conectado a Claude, para que cambies textos, páginas y ofertas con solo pedirlo, sin código y sin esperar a nadie",
+      "Cuestionario breve para tus seguidores de Instagram, diseñado para compartirse desde stories",
+      "Incentivo a cambio del correo electrónico: un workout gratuito, un descuento de lanzamiento en tu libro o el sorteo de sesiones 1:1 (por definir en conjunto)",
+      "Registro de cada respuesta en una base de datos, segmentada en profesionales y particulares, que identifica a las personas interesadas en tus servicios",
+      "Datos reales sobre los intereses de tu público para construir un producto mejor y más enfocado",
+      "Migración de myfacefit.com fuera de Shopify, con conexión a Claude para que puedas modificar textos, páginas y ofertas con solo solicitarlo, sin necesidad de código",
     ],
-    note: "Todo lo que sigue se construye con lo que aprendamos aquí: un producto pensado para cada público, en vez de adivinar.",
+    note: "Esta fase concluye con datos reales sobre tu público. Con base en ellos, las siguientes fases se diseñan a la medida de cada segmento, en lugar de partir de suposiciones.",
   },
   {
     n: "2",

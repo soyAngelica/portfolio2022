@@ -40,7 +40,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <p className="text-xl">SoyAngélica © 2025</p>
+        <p className="text-xl">SoyAngelica © 2026</p>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import Projects1 from "@assets/img/p1.png";
 
 const SideProjects = () => {
   return (
-    <div className="pb-20">
+    <div className="pt-16">
       <h2 className="text-left text-2xl font-bold md:font-normal md:text-3xl text-teal">
         Side Projects
       </h2>

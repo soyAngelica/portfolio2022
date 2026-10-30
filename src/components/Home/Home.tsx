@@ -11,8 +11,8 @@ const Home = () => {
       <Header />
       <Hero />
       <Projects />
-      <Portfolio />
       <SideProjects />
+      <Portfolio />
       <Footer />
     </div>
   );

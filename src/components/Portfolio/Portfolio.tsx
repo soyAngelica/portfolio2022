@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <div className="pt-16 pb-20">
       <h2 className="text-left text-2xl font-bold md:font-normal md:text-3xl text-teal">
-        Freelancer Web Portfolio
+        Freelance Web & Web Apps
       </h2>
       <div className="md:flex md:space-x-10 lg:space-x-24 mt-10 w-[80%] md:w-full">
         <div className="relative mb-14 md:mb-0">

@@ -46,10 +46,15 @@ const Projects = () => {
             >
               Sofía • (Mobile app)
             </a>
-            <p className="text-lg">Mobile app · built at Sofía Salud</p>
             <p className="text-lg">
               Digital health insurance app for Mexico: members manage their
-              plan, coverage, and every process directly from their phone.
+              plan, coverage, video consultations, and reimbursements right
+              from their phone. I collaborated on this app as part of the
+              Sofía Salud team.
+            </p>
+            <p className="text-sm text-zinc-500 mt-2">
+              Screenshots from the official App Store listing, via MWM
+              Intelligence. All rights belong to Sofía Salud.
             </p>
             <div className="flex gap-3 mt-4">
               <a

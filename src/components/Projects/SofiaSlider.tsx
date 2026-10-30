@@ -33,7 +33,7 @@ const SofiaSlider = () => {
       className="relative aspect-[4/3] w-full rounded-md shadow-lg overflow-hidden flex items-center justify-center"
       style={{
         background:
-          "linear-gradient(180deg, #688478 0%, #b4bfbb 50%, #c0cbc7 100%)",
+          "linear-gradient(180deg, #1c0630 0%, #3a1670 55%, #5b35c4 100%)",
       }}
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}

@@ -64,7 +64,7 @@ const MeltwaterSlider = () => {
             src={src}
             alt={titles[i] ?? `Meltwater screen ${i + 1}`}
             loading={i === 0 ? "eager" : "lazy"}
-            className="max-h-[68%] max-w-[90%] object-contain drop-shadow-xl"
+            className="w-[82%] max-h-[68%] object-contain drop-shadow-xl"
           />
           <p className="text-sm md:text-lg font-semibold text-[#1f5753] text-center">
             {titles[i]}

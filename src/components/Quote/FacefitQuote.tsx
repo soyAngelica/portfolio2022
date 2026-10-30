@@ -3,7 +3,7 @@ const RATE = 26;
 const phases = [
   {
     n: "1",
-    title: "Estudio de mercado y migración de tu sitio",
+    title: "Estudio de mercado y migración de website",
     hours: 30,
     time: "1–2 semanas",
     text: "Estudio de mercado y perfilación de clientes, junto con la migración de tu sitio a una plataforma sin cuota mensual.",
@@ -14,7 +14,7 @@ const phases = [
       "Datos reales sobre los intereses de tu público para construir un producto mejor y más enfocado",
       "Migración de myfacefit.com fuera de Shopify, con conexión a Claude para que puedas modificar textos, páginas y ofertas con solo solicitarlo, sin necesidad de código",
     ],
-    note: "Esta fase concluye con datos reales sobre tu público. Con base en ellos, las siguientes fases se diseñan a la medida de cada segmento, en lugar de partir de suposiciones.",
+    note: "Esta fase concluye con una primera cartera de contactos con datos reales y una segmentación de perfiles, que da una visión clara y específica de tu público para diseñar las siguientes fases a la medida de cada segmento.",
   },
   {
     n: "2",
@@ -65,13 +65,9 @@ const FacefitQuote = () => {
       <p className="text-sm font-bold uppercase tracking-[0.18em] text-teal mb-2">
         Quote · Facefit
       </p>
-      <h2 className="text-3xl md:text-4xl text-teal mb-3">
-        Un plan para Facefit, paso a paso
+      <h2 className="text-3xl md:text-4xl text-teal mb-8">
+        Facefit · Propuesta de proyecto
       </h2>
-      <p className="text-lg mb-8 md:w-4/5">
-        Tres fases. Cada una se entrega y se paga por separado, para que cada
-        paso funcione y traiga algo de vuelta antes de dar el siguiente.
-      </p>
 
       <div className="space-y-6">
         {phases.map((p) => (

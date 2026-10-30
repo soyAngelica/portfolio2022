@@ -25,18 +25,20 @@ const Hero = () => {
           </p>
           <p className="text-lg md:text-3xl mb-1 md:mb-2">
             REST APIs - GraphQL
-            <span className="text-zinc-300 mx-3" aria-hidden="true">|</span>
+            <span className="text-zinc-300 mx-3" aria-hidden="true">
+              |
+            </span>
             Tailwind CSS - Ant Design
           </p>
           <p className="text-sm md:text-2xl mb-2">
             Node JS - Express - PostgreSQL - MySQL - Redux | Mobx
           </p>
         </div>
-        <div className="flex text-right md:justify-end mt-6">
-          <StackSlider />
-        </div>
         <p className="flex items-center gap-2 md:justify-end mt-4 text-sm text-zinc-600">
-          <span className="inline-block shrink-0" style={{ width: "24px", height: "24px" }}>
+          <span
+            className="inline-block shrink-0"
+            style={{ width: "24px", height: "24px" }}
+          >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <path
                 clip-rule="evenodd"
@@ -48,6 +50,9 @@ const Hero = () => {
           </span>
           I build with Claude Code as my AI pair programmer.
         </p>
+        <div className="flex text-right md:justify-end mt-6">
+          <StackSlider />
+        </div>
       </div>
     </div>
   );

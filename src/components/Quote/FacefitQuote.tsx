@@ -8,7 +8,7 @@ const phases = [
     time: "1–2 semanas",
     text: "Estudio de mercado y perfilación de clientes, junto con la migración de tu sitio a una plataforma sin cuota mensual.",
     items: [
-      "Cuestionario breve para tus seguidores de Instagram, diseñado para compartirse desde stories",
+      "Cuestionario breve tipo quiz para tus seguidores de Instagram, diseñado para compartirse desde stories",
       "Incentivo a cambio del correo electrónico: un workout gratuito, un descuento de lanzamiento en tu libro o el sorteo de sesiones 1:1 (por definir en conjunto)",
       "Registro de cada respuesta en una base de datos, segmentada en profesionales y particulares, que identifica a las personas interesadas en tus servicios",
       "Datos reales sobre los intereses de tu público para construir un producto mejor y más enfocado",

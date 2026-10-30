@@ -45,7 +45,6 @@ const MeltwaterSlider = ({ href }: { href?: string }) => {
   }, [paused]);
 
   return (
-    <div>
     <div
       className="relative aspect-[4/3] w-full rounded-md shadow-lg overflow-hidden"
       style={{
@@ -85,17 +84,16 @@ const MeltwaterSlider = ({ href }: { href?: string }) => {
         />
       )}
 
-    </div>
       {screens.length > 1 && (
-        <div className="mt-1.5 flex justify-center gap-1.5">
+        <div className="absolute z-20 bottom-3 left-0 right-0 flex justify-center gap-1.5">
           {screens.map((src, i) => (
             <button
               key={src}
               type="button"
               aria-label={`Show screen ${i + 1}`}
               onClick={() => setIndex(i)}
-              className={`h-1.5 rounded-full transition-all ${
-                i === index ? "w-5 bg-[#2a9d94]" : "w-1.5 bg-[#2a9d94]/30"
+              className={`h-1 rounded-full transition-all ${
+                i === index ? "w-4 bg-[#2a9d94]" : "w-1 bg-[#2a9d94]/30"
               }`}
             />
           ))}

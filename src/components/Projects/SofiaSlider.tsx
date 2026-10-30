@@ -70,7 +70,6 @@ const SofiaSlider = ({ href }: { href?: string }) => {
   }, [paused]);
 
   return (
-    <div>
     <div
       className="relative aspect-[4/3] w-full rounded-md shadow-lg overflow-hidden flex items-center gap-4 md:gap-6 px-4 md:px-8"
       style={{
@@ -127,17 +126,16 @@ const SofiaSlider = ({ href }: { href?: string }) => {
         />
       )}
 
-    </div>
       {screens.length > 1 && (
-        <div className="mt-1.5 flex justify-center gap-1.5">
+        <div className="absolute z-20 top-4 right-4 md:right-8 flex gap-1.5">
           {screens.map((src, i) => (
             <button
               key={src}
               type="button"
               aria-label={`Show screen ${i + 1}`}
               onClick={() => setIndex(i)}
-              className={`h-1.5 rounded-full transition-all ${
-                i === index ? "w-5 bg-[#7a5ae0]" : "w-1.5 bg-[#7a5ae0]/30"
+              className={`h-1 rounded-full transition-all ${
+                i === index ? "w-4 bg-[#7a5ae0]" : "w-1 bg-[#7a5ae0]/30"
               }`}
             />
           ))}

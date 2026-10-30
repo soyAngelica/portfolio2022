@@ -7,7 +7,7 @@ const phases = [
     n: "0",
     title: "Escuchar a tu comunidad",
     time: "1–2 días",
-    price: "USD 200",
+    price: "USD 300",
     text: "Un test corto para tus seguidores de Instagram. Nos dice quién te sigue, qué le duele y qué compraría, y de paso arma tu lista de correos.",
     items: [
       "Test de 6 preguntas (Tally o similar), pensado para abrirse desde stories",
@@ -20,7 +20,7 @@ const phases = [
     n: "1",
     title: "Una sola casa para Facefit",
     time: "3–4 semanas",
-    price: "USD 1,800",
+    price: "USD 2,080",
     text: "Unimos myfacefit.com y tucaratehabla.com en un solo sitio tuyo, sin Shopify, para que dejes de pagar dos plataformas.",
     items: [
       "Sitio nuevo en WordPress, que puedes editar sin código",
@@ -34,7 +34,7 @@ const phases = [
     n: "2",
     title: "Cursos y membresías",
     time: "4–5 semanas",
-    price: "USD 2,400",
+    price: "USD 2,600",
     text: "Tus cursos con pago mensual o anual, con dos caminos claros: uno para pacientes y otro para profesionales.",
     items: [
       "My Facefit para particulares y Facefit Pro (ProHealth y ProBeauty)",
@@ -47,7 +47,7 @@ const phases = [
     n: "3",
     title: "La app con cámara",
     time: "3–4 meses",
-    price: "USD 12,000",
+    price: "USD 13,000",
     text: "Lo que más se va a usar desde el celular: tus ejercicios con la cámara encendida y una guía en pantalla que indica dónde poner las manos.",
     items: [
       "iOS y Android (React Native)",
@@ -60,7 +60,7 @@ const phases = [
     n: "4",
     title: "Red de especialistas",
     time: "2–3 semanas",
-    price: "USD 1,200",
+    price: "USD 1,300",
     text: "Un directorio de profesionales Facefit. Se llena casi solo: quien termina Facefit Pro puede aparecer en él.",
     items: [
       "Perfil por especialista, con ciudad y especialidad",

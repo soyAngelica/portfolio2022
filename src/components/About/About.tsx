@@ -1,7 +1,6 @@
 import Footer from "../Footer";
 import Header from "../Header";
 import MentesAmbulantes from "@assets/img/mentesAmbulantes.png";
-import MentesLogo from "@assets/img/mentes-ambulantes-logo.png";
 import MentesSite from "@assets/img/mentes-ambulantes-site.jpg";
 
 const About = () => {
@@ -57,18 +56,6 @@ const About = () => {
               href="https://mentes-ambulantes.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center rounded-md bg-teal px-6 py-4 mb-4 shadow-lg transition-transform hover:-translate-y-0.5"
-            >
-              <img
-                src={MentesLogo}
-                alt="Mentes Ambulantes"
-                className="w-full max-w-[240px]"
-              />
-            </a>
-            <a
-              href="https://mentes-ambulantes.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
               className="block rounded-md overflow-hidden shadow-lg transition-transform hover:-translate-y-0.5"
             >
               <img
@@ -79,6 +66,14 @@ const About = () => {
             </a>
           </div>
           <div className="md:flex-1">
+            <a
+              href="https://mentes-ambulantes.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-left text-2xl md:text-3xl text-teal mb-3 hover:underline"
+            >
+              Mentes Ambulantes
+            </a>
             <p className="text-lg text-left mb-2">
               In 2017, my partner Gustavo Merckel and I started Mentes
             Ambulantes, an educational road trip. With the help of a

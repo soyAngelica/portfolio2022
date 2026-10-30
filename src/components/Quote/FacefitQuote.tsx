@@ -20,7 +20,7 @@ const phases = [
     n: "2",
     title: "Web app mobile-first: cursos, membresías y red de especialistas",
     hours: 220,
-    time: "7–9 semanas",
+    time: "12 semanas",
     text: "Cursos, compra de sesiones 1:1 y directorio de especialistas para usuarios. Web app que corre desde el navegador, con un diseño optimizado para dispositivos móviles: funciona como una app y se puede guardar como acceso directo en la pantalla de inicio.",
     items: [
       "My Facefit para particulares y Facefit Pro (ProHealth y ProBeauty) para profesionales",

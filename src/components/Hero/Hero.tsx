@@ -1,4 +1,3 @@
-import { FiTerminal } from "react-icons/fi";
 import StackSlider from "../StackSlider";
 
 const Hero = () => {
@@ -26,7 +25,7 @@ const Hero = () => {
           </p>
           <p className="text-lg md:text-3xl mb-1 md:mb-2">
             {" "}
-            Tailwind CSS & Ant Design
+            Tailwind CSS & Ant Design - Claude Code (AI-assisted)
           </p>
           <p className="text-sm md:text-2xl mb-2">
             Node JS - Express JS - PostgreSQL - MySQL - GraphQL - Redux | Mobx
@@ -35,10 +34,6 @@ const Hero = () => {
         <div className="flex text-right md:justify-end mt-6">
           <StackSlider />
         </div>
-        <p className="flex items-center gap-2 md:justify-end mt-4 text-lg text-zinc-600">
-          <FiTerminal className="text-teal" aria-hidden="true" />
-          I build with Claude Code as my AI pair programmer.
-        </p>
       </div>
     </div>
   );

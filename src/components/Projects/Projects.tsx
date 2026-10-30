@@ -1,4 +1,9 @@
 import Projects1 from "@assets/img/p1.png";
+import SofiaSlider from "./SofiaSlider";
+
+const storeBtn =
+  "inline-block rounded-full border-2 border-teal px-5 py-1.5 text-teal font-semibold hover:bg-teal hover:text-white transition-colors";
+
 const Projects = () => {
   return (
     <div className="pt-16">
@@ -28,6 +33,48 @@ const Projects = () => {
               </p>
             </div>
           </a>
+        </div>
+
+        <div className="relative mb-14 md:mb-0 md:w-2/4">
+          <SofiaSlider />
+          <div className="py-4">
+            <a
+              href="https://mwm.ai/apps/sofia/1463424996"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl text-slate-400 hover:text-teal"
+            >
+              Sofía • (Mobile app)
+            </a>
+            <p className="text-lg">
+              Digital health insurance app for Mexico: members manage their
+              plan, coverage, video consultations, and reimbursements right
+              from their phone. I collaborated on this app as part of the
+              Sofía Salud team.
+            </p>
+            <p className="text-sm text-zinc-500 mt-2">
+              Screenshots from the official App Store listing, via MWM
+              Intelligence. All rights belong to Sofía Salud.
+            </p>
+            <div className="flex gap-3 mt-4">
+              <a
+                href="https://apps.apple.com/us/app/sof%C3%ADa/id1463424996"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={storeBtn}
+              >
+                iOS
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.sofiasalud.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={storeBtn}
+              >
+                Android
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

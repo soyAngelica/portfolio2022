@@ -14,8 +14,8 @@ const screens = Object.keys(modules)
 const titles = [
   "Newsletter builder · pick a template",
   "Social analytics dashboard",
-  "AI search assistant & spike detection",
   "AI visibility tracking",
+  "AI search assistant & spike detection",
   "Influencer profile & audience insights",
   "AI assistant for PR teams",
   "Influencer discovery",

@@ -80,7 +80,7 @@ const SofiaSlider = ({ href }: { href?: string }) => {
       onMouseLeave={() => setPaused(false)}
     >
       {/* phone frame (left) */}
-      <div className="relative h-[84%] aspect-[471/1024] shrink-0 rounded-[1.4rem] bg-zinc-900 p-[5px] shadow-xl">
+      <div className="relative h-[78%] aspect-[471/1024] shrink-0 rounded-[1.4rem] bg-zinc-900 p-[5px] shadow-xl">
         <div className="relative h-full w-full overflow-hidden rounded-[1.1rem] bg-white">
           {screens.map((src, i) => (
             <img

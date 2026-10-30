@@ -24,10 +24,10 @@ const Projects = () => {
             </a>
             <p className="text-lg">
               Media, social, and influencer intelligence platform used by PR
-              and marketing teams worldwide. I worked on the Newsletters
-              product, the builder that turns media coverage into branded
-              email digests, and also collaborated on the tools teams use to
-              work with influencers.
+              and marketing teams worldwide. I built features for the
+              Newsletters builder, which turns media coverage into branded
+              email digests, and for the influencer marketing tools that teams
+              use to discover, contact, and track creators.
             </p>
             <p className="text-sm text-zinc-500 mt-2">
               Screenshots from Meltwater's public product tours. All rights

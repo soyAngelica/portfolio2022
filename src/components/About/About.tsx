@@ -1,6 +1,7 @@
 import Footer from "../Footer";
 import Header from "../Header";
 import MentesAmbulantes from "@assets/img/mentesAmbulantes.png";
+import MentesLogo from "@assets/img/mentes-ambulantes-logo.png";
 
 const About = () => {
   return (
@@ -46,21 +47,43 @@ const About = () => {
         </p>
       </div>
       <div className="pb-20 pt-8 block border-t-2 border-t-zinc-200">
-        <h2 className="text-left text-2xl mb-2 md:text-3xl text-teal">
+        <h2 className="text-left text-2xl mb-6 md:text-3xl text-teal">
           Volunteering & Education
         </h2>
-        <p className="text-lg text-left mb-2">
-          In 2017 my parner Gustavo Merckel and I started an educative roadtrip
-          called Mentes ambulantes. Helped by a crowdfunding campaign, we teach
-          workshops on sustainable use of technology and programming to more
-          than 120 kids around of 9 communities in the Maya region from Southern
-          Mexico and Northern Guatemala.
-        </p>
-        <img
-          src={MentesAmbulantes}
-          alt="Mentes Ambulantes"
-          className="block pt-10 md:max-w-[85%]"
-        />
+        <div className="md:flex md:items-start md:gap-10">
+          <a
+            href="https://mentes-ambulantes.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group shrink-0 w-full md:w-1/4 mb-8 md:mb-0 rounded-md shadow-lg bg-teal py-10 md:py-6 md:aspect-[3/4] md:max-h-[420px] flex flex-col items-center justify-center gap-6 p-6 transition-transform hover:-translate-y-1"
+          >
+            <img
+              src={MentesLogo}
+              alt="Mentes Ambulantes"
+              className="w-full max-w-[220px]"
+            />
+            <span className="text-white text-lg">
+              Visit the site{" "}
+              <span className="inline-block transition-transform group-hover:translate-x-1">
+                →
+              </span>
+            </span>
+          </a>
+          <div className="md:flex-1">
+            <p className="text-lg text-left mb-2">
+              In 2017 my parner Gustavo Merckel and I started an educative roadtrip
+              called Mentes ambulantes. Helped by a crowdfunding campaign, we teach
+              workshops on sustainable use of technology and programming to more
+              than 120 kids around of 9 communities in the Maya region from Southern
+              Mexico and Northern Guatemala.
+            </p>
+            <img
+              src={MentesAmbulantes}
+              alt="Mentes Ambulantes workshops"
+              className="block pt-6 w-full"
+            />
+          </div>
+        </div>
       </div>
       <Footer />
     </div>

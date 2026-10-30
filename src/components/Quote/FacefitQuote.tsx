@@ -3,55 +3,55 @@ const RATE = 26;
 const phases = [
   {
     n: "1",
-    title: "Audience research & moving off Shopify",
+    title: "Estudio de tu público y salida de Shopify",
     hours: 30,
-    time: "1–2 weeks",
-    text: "Before building anything big, we listen to your community, and we move your site off Shopify so you stop paying the monthly fee.",
+    time: "1–2 semanas",
+    text: "Antes de construir algo grande, escuchamos a tu comunidad y sacamos tu sitio de Shopify para que dejes de pagar la mensualidad.",
     items: [
-      "Short quiz for your Instagram followers, made to open from stories",
-      "In exchange for their email: a free workout, a launch discount on your book or a raffle of free 1:1 sessions (we'll pick it together)",
-      "Every answer saved in a records database, split into professionals and individuals, showing who is interested in working with you",
-      "We learn what people need, what hurts most and what they would pay, so we can build a sharper, better-targeted product",
-      "myfacefit.com moved off Shopify and connected to Claude, so you can update texts, pages and offers just by asking, without code and without waiting on anyone",
+      "Quiz corto para tus seguidores de Instagram, pensado para abrirse desde stories",
+      "A cambio de su correo: un workout gratis, un descuento de lanzamiento en tu libro o la rifa de sesiones 1:1 gratis (lo definimos juntas)",
+      "Cada respuesta se guarda en una base de datos de registros, separando profesionales y particulares, y nos muestra quién está interesado en trabajar contigo",
+      "Sabemos qué necesita la gente, qué le duele más y cuánto pagaría, para construir un producto mejor y más enfocado",
+      "myfacefit.com sale de Shopify y queda conectado a Claude, para que cambies textos, páginas y ofertas con solo pedirlo, sin código y sin esperar a nadie",
     ],
-    note: "Everything after this phase is built on what we learn here: a product shaped for each audience, instead of guessing.",
+    note: "Todo lo que sigue se construye con lo que aprendamos aquí: un producto pensado para cada público, en vez de adivinar.",
   },
   {
     n: "2",
-    title: "Mobile-first web app: courses, memberships & specialist network",
+    title: "Web app mobile-first: cursos, membresías y red de especialistas",
     hours: 190,
-    time: "6–8 weeks",
-    text: "One place for your courses and your specialist directory. It is built for the web, but designed for people who live on their phones: it opens from Instagram, works like an app and can be saved to the home screen.",
+    time: "6–8 semanas",
+    text: "Un solo lugar para tus cursos y tu directorio de especialistas. Está hecha para web, pero pensada para gente que vive en el celular: se abre desde Instagram, funciona como una app y se puede guardar en la pantalla de inicio.",
     items: [
-      "My Facefit for individuals and Facefit Pro (ProHealth and ProBeauty) for professionals",
-      "Short 3–7 minute videos for individuals, easy to do anywhere; longer, in-depth lessons for professionals",
-      "Monthly or yearly memberships, plus a clinic license so dentists can give access to their patients",
-      "Member area with progress, videos and certificates",
-      "Specialist network: Facefit Pro graduates can be listed, paid or in exchange for recommending you with a discount code",
-      "Calendly integration to book and pay your 1:1 sessions",
-      "Claude connected to all your tools, so you can send emails, create campaigns, set up discounts and plan your classes just by asking",
+      "My Facefit para particulares y Facefit Pro (ProHealth y ProBeauty) para profesionales",
+      "Videos cortos de 3 a 7 minutos para particulares, fáciles de hacer en cualquier lugar; lecciones más largas y a fondo para profesionales",
+      "Membresías mensuales o anuales, más una licencia para clínicas, para que los dentistas den acceso a sus pacientes",
+      "Área de miembros con progreso, videos y certificados",
+      "Red de especialistas: quienes terminen Facefit Pro pueden aparecer, pagando o a cambio de recomendarte con un código de descuento",
+      "Integración con Calendly para reservar y pagar tus sesiones 1:1",
+      "Claude conectado a todas tus herramientas, para que mandes correos, crees campañas, armes descuentos y planees tus clases con solo pedírselo",
     ],
-    note: "This is how we start earning from the audience you already have while the app is being built. Every lesson and routine you create here is the same content we adapt for the app, so nothing is done twice.",
+    note: "Así empezamos a generar ingresos con la audiencia que ya tienes mientras se construye la app. Cada lección y rutina que crees aquí es el mismo contenido que adaptamos para la app, así que nada se hace dos veces.",
   },
   {
     n: "3",
-    title: "The Facefit app",
+    title: "La app de Facefit",
     hours: 500,
-    time: "3–4 months",
-    text: "Your routines with the camera on and a live on-screen guide that shows where to place your hands, for iOS and Android. Built so people open it every day, not once.",
+    time: "3–4 meses",
+    text: "Tus rutinas con la cámara encendida y una guía en pantalla, en tiempo real, que muestra dónde poner las manos, para iOS y Android. Hecha para que la gente la abra todos los días, no una sola vez.",
     items: [
-      "Real-time face and hand guide with the camera",
-      "Quick 3–7 minute daily routines",
-      "Face Fit score: the camera measures jaw opening, symmetry and smile range, so people see real progress in numbers",
-      "Tension check before and after each routine, to show how much relief it brings",
-      "Guided journeys like \"21 days without jaw tension\" that unlock new routines as you go",
-      "Private progress selfies with before-and-after comparisons, and a shareable card for Instagram that brings new users to you",
-      "Dentists and specialists can assign routines to their patients and see if they are doing them",
-      "Push notifications: daily reminders, gentle nudges after a missed day and check-ins along longer programs",
-      "Same account, courses and content as the web app",
-      "Launches to an audience that already knows and pays for Facefit",
+      "Guía de rostro y manos en tiempo real con la cámara",
+      "Rutinas diarias rápidas de 3 a 7 minutos",
+      "Face Fit score: la cámara mide la apertura de la mandíbula, la simetría y el rango de la sonrisa, para que el avance se vea en números",
+      "Chequeo de tensión antes y después de cada rutina, para notar cuánto alivio da",
+      "Recorridos guiados como \"21 días sin tensión en la mandíbula\" que desbloquean rutinas nuevas",
+      "Selfies de progreso privadas con antes y después, y una tarjeta para compartir en Instagram que te trae usuarios nuevos",
+      "Dentistas y especialistas pueden asignar rutinas a sus pacientes y ver si las hacen",
+      "Notificaciones: recordatorio diario, un empujoncito amable si faltaron un día y seguimiento en los programas largos",
+      "La misma cuenta, cursos y contenido que la web app",
+      "Se lanza a una audiencia que ya conoce y paga Facefit",
     ],
-    note: "We looked at the leading face yoga apps, Luvly and FaceYogi. They have 16–20K ratings each and charge from USD 10 a week to 20 a month, so people already pay for this. But they only play videos and use streaks and badges. None of them guides your hands with the camera, measures real progress, or is backed by a physiotherapist's method. That is Facefit's edge.",
+    note: "Investigamos las apps líderes de yoga facial, Luvly y FaceYogi. Tienen 16–20 mil calificaciones cada una y cobran desde 10 USD a la semana hasta 20 al mes, así que la gente ya paga por esto. Pero solo ponen videos con rachas y medallas. Ninguna guía tus manos con la cámara, mide progreso real ni está respaldada por el método de una fisioterapeuta. Esa es la ventaja de Facefit.",
   },
 ];
 
@@ -66,11 +66,11 @@ const FacefitQuote = () => {
         Quote · Facefit
       </p>
       <h2 className="text-3xl md:text-4xl text-teal mb-3">
-        A plan for Facefit, step by step
+        Un plan para Facefit, paso a paso
       </h2>
       <p className="text-lg mb-8 md:w-4/5">
-        Three phases. Each one is delivered and paid separately, so every step
-        works and brings something back before we take the next one.
+        Tres fases. Cada una se entrega y se paga por separado, para que cada
+        paso funcione y traiga algo de vuelta antes de dar el siguiente.
       </p>
 
       <div className="space-y-6">
@@ -81,7 +81,7 @@ const FacefitQuote = () => {
           >
             <div className="md:w-1/3 mb-4 md:mb-0">
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-teal">
-                Phase {p.n}
+                Fase {p.n}
               </p>
               <p className="text-2xl mt-1 mb-3">{p.title}</p>
               <p className="text-zinc-500">
@@ -109,21 +109,23 @@ const FacefitQuote = () => {
       </div>
 
       <div className="mt-6 rounded-2xl border-2 border-teal px-6 py-5">
-        <p className="text-lg font-semibold text-teal mb-1">A quick demo first</p>
+        <p className="text-lg font-semibold text-teal mb-1">
+          Primero, un demo rápido
+        </p>
         <p className="text-lg">
-          If we start with Phase 1, I'll build a clickable demo of the web app
-          and the app in a couple of days, so you can see and try it before
-          deciding the next phase.
+          Si empezamos con la Fase 1, en un par de días te armo un demo
+          clickeable de la web app y de la app, para que lo veas y lo pruebes
+          antes de decidir la siguiente fase.
         </p>
       </div>
 
       <div className="mt-6 rounded-2xl bg-[#e2ebff] px-6 py-5 md:flex justify-between items-center gap-6">
         <p className="text-lg">
-          Total for all three phases:{" "}
+          Total de las tres fases:{" "}
           <span className="font-semibold">{money(total)}</span>
         </p>
         <p className="text-zinc-600 mt-2 md:mt-0">
-          Optional maintenance after launch: USD 200–400 per month
+          Mantenimiento opcional después del lanzamiento: USD 200–400 al mes
         </p>
       </div>
 
@@ -135,7 +137,7 @@ const FacefitQuote = () => {
           Let's talk
         </a>
         <p className="mt-6 text-lg">
-          Talk soon,
+          Hablamos pronto,
           <br />
           Angélica
         </p>

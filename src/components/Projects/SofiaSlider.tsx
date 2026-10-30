@@ -80,7 +80,7 @@ const SofiaSlider = ({ href }: { href?: string }) => {
       onMouseLeave={() => setPaused(false)}
     >
       {/* phone frame (left) */}
-      <div className="relative h-[82%] -mt-3 aspect-[471/1024] shrink-0 rounded-[1.4rem] bg-zinc-900 p-[5px] shadow-xl">
+      <div className="relative h-[92%] aspect-[471/1024] shrink-0 rounded-[1.4rem] bg-zinc-900 p-[5px] shadow-xl">
         <div className="relative h-full w-full overflow-hidden rounded-[1.1rem] bg-white">
           {screens.map((src, i) => (
             <img
@@ -127,7 +127,7 @@ const SofiaSlider = ({ href }: { href?: string }) => {
       )}
 
       {screens.length > 1 && (
-        <div className="absolute z-20 bottom-3 right-4 md:right-8 flex gap-1.5">
+        <div className="absolute z-20 top-4 right-4 md:right-8 flex gap-1.5">
           {screens.map((src, i) => (
             <button
               key={src}

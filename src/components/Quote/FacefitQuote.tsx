@@ -42,14 +42,16 @@ const phases = [
     items: [
       "Real-time face and hand guide with the camera",
       "Quick 3–7 minute daily routines",
-      "Streaks, medals, levels and weekly challenges",
-      "Achievement cards people can share on Instagram, bringing new users to you",
-      "Private progress photos with before-and-after comparisons",
-      "Push notifications: daily reminders, streak saves and check-ins for longer programs",
+      "Face Fit score: the camera measures jaw opening, symmetry and smile range, so people see real progress in numbers",
+      "Tension check before and after each routine, to show how much relief it brings",
+      "Guided journeys like \"21 days without jaw tension\" that unlock new routines as you go",
+      "Private progress selfies with before-and-after comparisons, and a shareable card for Instagram that brings new users to you",
+      "Dentists and specialists can assign routines to their patients and see if they are doing them",
+      "Push notifications: daily reminders, gentle nudges after a missed day and check-ins along longer programs",
       "Same account, courses and content as the web app",
       "Launches to an audience that already knows and pays for Facefit",
     ],
-    note: "The leading face yoga apps, Luvly and FaceYogi, have 16–20K ratings each and charge from USD 10 a week to 20 a month, so people already pay for this. None of them guides your hands with the camera in real time, and none is backed by a physiotherapist's method. That is Facefit's edge.",
+    note: "We looked at the leading face yoga apps, Luvly and FaceYogi. They have 16–20K ratings each and charge from USD 10 a week to 20 a month, so people already pay for this. But they only play videos and use streaks and badges. None of them guides your hands with the camera, measures real progress, or is backed by a physiotherapist's method. That is Facefit's edge.",
   },
 ];
 

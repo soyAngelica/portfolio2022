@@ -4,6 +4,7 @@ import Hero from "../Hero";
 import Portfolio from "../Portfolio";
 import Projects from "../Projects";
 import SideProjects from "../Projects/SideProjects";
+import QuoteGate from "../Quote/QuoteGate";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <SideProjects />
       <Portfolio />
       <Footer />
+      <QuoteGate />
     </div>
   );
 };

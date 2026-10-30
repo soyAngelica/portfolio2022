@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="md:flex md:space-x-10 lg:space-x-24 mt-10 w-[80%] md:w-full">
         <div className="relative mb-14 md:mb-0 md:w-2/4">
           <MeltwaterSlider href="https://www.meltwater.com/en/product-tours" />
-          <div className="py-4">
+          <div className="pt-6 pb-4">
             <a
               href="https://www.meltwater.com/en/product-tours"
               target="_blank"
@@ -38,7 +38,7 @@ const Projects = () => {
 
         <div className="relative mb-14 md:mb-0 md:w-2/4">
           <SofiaSlider href="https://mwm.ai/apps/sofia/1463424996" />
-          <div className="py-4">
+          <div className="pt-6 pb-4">
             <a
               href="https://mwm.ai/apps/sofia/1463424996"
               target="_blank"

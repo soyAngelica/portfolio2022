@@ -21,7 +21,9 @@ const titles = [
   "Influencer discovery",
   "Influencer campaign analytics",
   "Media coverage dashboard",
-  "Shareable activity reports",
+  "Media relations & outreach",
+  "Brand trends across AI answers",
+  "AI response accuracy check",
 ];
 
 const INTERVAL_MS = 3500;

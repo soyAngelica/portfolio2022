@@ -12,6 +12,30 @@ const Projects = () => {
       </h2>
       <div className="md:flex md:space-x-10 lg:space-x-24 mt-10 w-[80%] md:w-full">
         <div className="relative mb-14 md:mb-0 md:w-2/4">
+          <MeltwaterSlider />
+          <div className="py-4">
+            <a
+              href="https://www.meltwater.com/en/product-tours"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl text-slate-400 hover:text-teal"
+            >
+              Meltwater • (SaaS platform)
+            </a>
+            <p className="text-lg">
+              Media, social, and influencer intelligence platform used by PR
+              and marketing teams worldwide. I worked on the Newsletters
+              product, the builder that turns media coverage into branded
+              email digests.
+            </p>
+            <p className="text-sm text-zinc-500 mt-2">
+              Screenshots from Meltwater's public product tours. All rights
+              belong to Meltwater.
+            </p>
+          </div>
+        </div>
+
+        <div className="relative mb-14 md:mb-0 md:w-2/4">
           <SofiaSlider />
           <div className="py-4">
             <a
@@ -50,30 +74,6 @@ const Projects = () => {
                 Android
               </a>
             </div>
-          </div>
-        </div>
-
-        <div className="relative mb-14 md:mb-0 md:w-2/4">
-          <MeltwaterSlider />
-          <div className="py-4">
-            <a
-              href="https://www.meltwater.com/en/product-tours"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xl text-slate-400 hover:text-teal"
-            >
-              Meltwater • (SaaS platform)
-            </a>
-            <p className="text-lg">
-              Media, social, and influencer intelligence platform used by PR
-              and marketing teams worldwide. I worked on the Newsletters
-              product, the builder that turns media coverage into branded
-              email digests.
-            </p>
-            <p className="text-sm text-zinc-500 mt-2">
-              Screenshots from Meltwater's public product tours. All rights
-              belong to Meltwater.
-            </p>
           </div>
         </div>
       </div>

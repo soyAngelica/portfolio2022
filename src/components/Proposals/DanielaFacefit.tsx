@@ -6,13 +6,13 @@ const phases = [
   {
     n: "0",
     title: "Escuchar a tu comunidad",
-    time: "1 semana",
-    price: "USD 500",
+    time: "1–2 días",
+    price: "USD 200",
     text: "Un test corto para tus seguidores de Instagram. Nos dice quién te sigue, qué le duele y qué compraría, y de paso arma tu lista de correos.",
     items: [
-      "Test de 6 preguntas, pensado para abrirse desde stories",
+      "Test de 6 preguntas (Tally o similar), pensado para abrirse desde stories",
       "Regalo a cambio del correo: un workout gratis + descuento de lanzamiento",
-      "Separa automáticamente a profesionales y particulares",
+      "Respuestas en Airtable, separando a profesionales y particulares",
       "Resumen de resultados para decidir las siguientes fases con datos",
     ],
   },
@@ -20,7 +20,7 @@ const phases = [
     n: "1",
     title: "Una sola casa para Facefit",
     time: "3–4 semanas",
-    price: "USD 3,000",
+    price: "USD 1,800",
     text: "Unimos myfacefit.com y tucaratehabla.com en un solo sitio tuyo, sin Shopify, para que dejes de pagar dos plataformas.",
     items: [
       "Sitio nuevo en WordPress, que puedes editar sin código",
@@ -33,8 +33,8 @@ const phases = [
   {
     n: "2",
     title: "Cursos y membresías",
-    time: "4–6 semanas",
-    price: "USD 5,000",
+    time: "4–5 semanas",
+    price: "USD 2,400",
     text: "Tus cursos con pago mensual o anual, con dos caminos claros: uno para pacientes y otro para profesionales.",
     items: [
       "My Facefit para particulares y Facefit Pro (ProHealth y ProBeauty)",
@@ -59,8 +59,8 @@ const phases = [
   {
     n: "4",
     title: "Red de especialistas",
-    time: "3–4 semanas",
-    price: "USD 3,500",
+    time: "2–3 semanas",
+    price: "USD 1,200",
     text: "Un directorio de profesionales Facefit. Se llena casi solo: quien termina Facefit Pro puede aparecer en él.",
     items: [
       "Perfil por especialista, con ciudad y especialidad",
@@ -181,7 +181,7 @@ const DanielaFacefit = () => {
           ))}
         </div>
         <p className="mt-6 text-zinc-600">
-          Mantenimiento opcional después del lanzamiento: USD 300–500 al mes
+          Mantenimiento opcional después del lanzamiento: USD 200–400 al mes
           (actualizaciones, seguridad, cambios pequeños y soporte).
         </p>
       </div>

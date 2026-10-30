@@ -4,8 +4,8 @@ const phases = [
   {
     n: "1",
     title: "Estudio de mercado y migración de website",
-    hours: 30,
-    time: "1–2 semanas",
+    hours: 20,
+    time: "1 semana",
     text: "Estudio de mercado y perfilación de clientes, junto con la migración de tu sitio a una plataforma sin cuota mensual.",
     items: [
       "Cuestionario breve tipo quiz para tus seguidores de Instagram, diseñado para compartirse desde stories",

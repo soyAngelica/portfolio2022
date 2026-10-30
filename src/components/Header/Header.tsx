@@ -42,7 +42,7 @@ const Header = () => {
           <div className="w-[10px] h-[10px] bg-emerald-700 rounded-full animate-pulse"></div>
           <a
             className="text-[14px] leading-[18px] sm:text-base sm:leading-6"
-            href="/docs/AngelicaAguilarFrontendEngineer2025T.pdf"
+            href="/docs/Angelica-Aguilar-Frontend-Engineer-CV-2026.pdf"
             target="_blank"
             download
           >

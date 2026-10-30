@@ -20,15 +20,15 @@ const titles = [
   "AI assistant for PR teams",
   "Influencer discovery",
   "Influencer campaign analytics",
+  "AI response accuracy check",
   "Media coverage dashboard",
   "Media relations & outreach",
   "Brand trends across AI answers",
-  "AI response accuracy check",
 ];
 
 const INTERVAL_MS = 3500;
 
-const MeltwaterSlider = () => {
+const MeltwaterSlider = ({ href }: { href?: string }) => {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
 
@@ -74,8 +74,18 @@ const MeltwaterSlider = () => {
         </div>
       ))}
 
+      {href && (
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open Meltwater project page"
+          className="absolute inset-0 z-10"
+        />
+      )}
+
       {screens.length > 1 && (
-        <div className="absolute bottom-3 left-0 right-0 flex justify-center gap-1.5">
+        <div className="absolute z-20 bottom-3 left-0 right-0 flex justify-center gap-1.5">
           {screens.map((src, i) => (
             <button
               key={src}

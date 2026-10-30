@@ -53,7 +53,7 @@ const captions = [
 
 const INTERVAL_MS = 4000;
 
-const SofiaSlider = () => {
+const SofiaSlider = ({ href }: { href?: string }) => {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
 
@@ -116,8 +116,18 @@ const SofiaSlider = () => {
         ))}
       </div>
 
+      {href && (
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open Sofía project page"
+          className="absolute inset-0 z-10"
+        />
+      )}
+
       {screens.length > 1 && (
-        <div className="absolute bottom-3 right-4 md:right-8 flex gap-1.5">
+        <div className="absolute z-20 bottom-3 right-4 md:right-8 flex gap-1.5">
           {screens.map((src, i) => (
             <button
               key={src}

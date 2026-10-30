@@ -12,7 +12,7 @@ const Projects = () => {
       </h2>
       <div className="md:flex md:space-x-10 lg:space-x-24 mt-10 w-[80%] md:w-full">
         <div className="relative mb-14 md:mb-0 md:w-2/4">
-          <MeltwaterSlider />
+          <MeltwaterSlider href="https://www.meltwater.com/en/product-tours" />
           <div className="py-4">
             <a
               href="https://www.meltwater.com/en/product-tours"
@@ -26,7 +26,8 @@ const Projects = () => {
               Media, social, and influencer intelligence platform used by PR
               and marketing teams worldwide. I worked on the Newsletters
               product, the builder that turns media coverage into branded
-              email digests.
+              email digests, and also collaborated on the tools teams use to
+              work with influencers.
             </p>
             <p className="text-sm text-zinc-500 mt-2">
               Screenshots from Meltwater's public product tours. All rights
@@ -36,7 +37,7 @@ const Projects = () => {
         </div>
 
         <div className="relative mb-14 md:mb-0 md:w-2/4">
-          <SofiaSlider />
+          <SofiaSlider href="https://mwm.ai/apps/sofia/1463424996" />
           <div className="py-4">
             <a
               href="https://mwm.ai/apps/sofia/1463424996"
@@ -53,8 +54,8 @@ const Projects = () => {
               Sofía Salud team.
             </p>
             <p className="text-sm text-zinc-500 mt-2">
-              Screenshots from the official App Store listing, via MWM
-              Intelligence. All rights belong to Sofía Salud.
+              Screenshots from the official App Store listing. All rights
+              belong to Sofía Salud.
             </p>
             <div className="flex gap-3 mt-4">
               <a
